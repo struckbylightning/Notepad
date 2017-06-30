@@ -7,7 +7,7 @@ image:
   feature: Hossain-Mohd-Faysal.jpg
 ---
 
-  <img src="{{ site.url }}/images/nikunj-doshi.jpg" alt="Hossain Mohammad Faysal">
+  <img style="border-radius: 50%;width: 18%;" src="{{ site.url }}/images/nikunj-doshi.jpg" alt="Hossain Mohammad Faysal">
 
 
 My name is **Nikunj Doshi**, and this is my personal blog, where i`ll be sharing learnings emerging from my interactions with **Salesforce.com platform**
