@@ -66,7 +66,7 @@ html, body, .notepad-post-container, .notepad-post-header {
         max-height: 5rem; }
         .post-template .notepad-post-header .notepad-post-menu-header .notepad-blog-logo img {
           max-height: 5rem; }
-	.post-template .notepad-post-menu-header .title {
+	.post-template .notepad-post-menu-header-simple .title {
       display: inline-block;
       padding: 0;
       padding-left: 1.25rem;
