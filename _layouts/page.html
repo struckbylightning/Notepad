@@ -5,22 +5,24 @@
 </head>
 <body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
 
-<main id="summer-page-container" class="summer-page-container" role="main">
+<main id="notepad-page-container" class="notepad-page-container" role="main">
     
     
-        <header class="summer-page-header">
-            <div class="summer-page-menu-header">
+        <header class="notepad-page-header">
+            <div class="notepad-page-menu-header">
                 
-                <span class="title">
-                    <a href="https://struckbylightning.github.io">Nikunj Doshi</a>
-                </span>               
+                    <span class="title">
+                        <a href="https://struckbylightning.github.io">Nikunj Doshi</a>
+                    </span> 
                 
-                <div class="summer-blog-menu">      
-    <div class="summer-mobile-menu show-for-small">
+                
+                
+                <div class="notepad-blog-menu">      
+    <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
-    <ul class="summer-menu">
-        <li class="summer-mobile-close-btn show-for-small text-right">
+    <ul class="notepad-menu">
+        <li class="notepad-mobile-close-btn show-for-small text-right">
             <a href="#"><i class="fa fa-times"></i></a>
         </li>
 {% for link in site.links %}
@@ -34,16 +36,34 @@
     </ul>
 </div>
             </div>
-            <div class="summer-page-title row">
+            <div class="notepad-page-title row">
                 <div class="small-12 columns">
                     <h1>{{ page.title }}</h1>
                 </div>
             </div>
         </header>
 
-<article class="summer-page-content">
+<article class="notepad-page-content">
                     <div>{{ content }}</div>
 </article>
+    
+<div class="cf"></div>
+{% if site.share %}{% include share.html %}{% endif %}
+
+<div class="cf"></div>
+{% include signoff.html %} 
+        
+<div class="cf"></div>
+{% if site.disqus_shortname and page.comments == true %}
+    <section class="notepad-disqus row">
+        <div class="small-12 columns">
+            <h1 class="notepad-comments-header">Comments</h1>
+            <div id="disqus_thread"></div>
+            {% include disqus_comments.html %}
+        </div>
+    </section>
+{% endif %}
+    
         <div class="cf"></div>
     {% include footer.html %}
 </main>
