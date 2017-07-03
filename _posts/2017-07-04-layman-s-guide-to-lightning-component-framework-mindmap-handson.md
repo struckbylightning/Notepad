@@ -13,8 +13,8 @@ Below mindmap and example code will explain,
 - Javascript basics
 - Object Oriented Programming basics
 - Lightning component basics
-	+ComponentBundle
-	+Example OpenTheDoor application which consists of
+	+ ComponentBundle
+	+ Example OpenTheDoor application which consists of
     	- `OpenTheDoor.app` (container for holding the guy & the door)
         
 ```html
