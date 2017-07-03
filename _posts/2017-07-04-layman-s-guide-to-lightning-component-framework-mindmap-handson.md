@@ -13,8 +13,8 @@ Below mindmap and example code will explain,
 - Javascript basics
 - Object Oriented Programming basics
 - Lightning component basics
-+ ComponentBundle
-+ Example OpenTheDoor application which consists of
+	+ComponentBundle
+	+Example OpenTheDoor application which consists of
     	- `OpenTheDoor.app` (container for holding the guy & the door)
         
 ```html
@@ -28,7 +28,7 @@ Below mindmap and example code will explain,
 ```html
         <!--`openDoor.evt` (fired when guy knocks the door)-->       
 ```
-        - `door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging the receipt of the event)
+       	- `door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging the receipt of the event)
         ```html
         <!--`door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging-->
 ```
