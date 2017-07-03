@@ -36,7 +36,7 @@ Below mindmap and example code will explain,
         <!--`door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging-->
 ```
   
-  <embed src="{{site.baseurl}}/images/lightningComponentMindMap.pdf" width="800px" height="1100px" />
+  <embed src="{{site.baseurl}}/images/lightningComponentMindMap.pdf" width="800px" height="800px" />
 _Mind Map_
 
 
