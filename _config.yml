@@ -26,6 +26,7 @@ owner:
   google_plus:    https://plus.google.com/+nikunjdoshiDreamer 
 
 # Analytics and webmaster tools stuff goes here
+
 google_analytics:   UA-101998163-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
@@ -45,6 +46,8 @@ links:
   - title: About
     url: /nikunj-doshi
 
+
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Calcutta
 future:      true
@@ -55,10 +58,7 @@ paginate_path: "page:num"
 highlight_theme: light
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-
-
+permalink:   /:year/:month/:categories/:title
 
 kramdown:
   auto_ids: true
@@ -112,18 +112,10 @@ prose:
           placeholder: "Choose categories"
           value: personal
           options:
-            - name: "Personal"
-              value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
-            - name: "Web-Development"
-              value: webdevelopment
+            - name: "Lightning"
+              value: lightning
+            - name: "Apex"
+              value: apex            
           alterable: true
       - name: "tags"
         field:

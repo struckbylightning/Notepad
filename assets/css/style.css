@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif; }
 
-.summer-parallax-background {
+.notepad-parallax-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -31,13 +31,13 @@ header, main, footer {
   position: relative;
   z-index: 1; }
 
-main, .summer-share-icons, .summer-disqus {
+main, .notepad-share-icons, .notepad-disqus {
   background: white; }
 
 .animated-post {
   background: transparent; }
 
-.summer-blog-menu {
+.notepad-blog-menu {
   padding-top: 0;
   padding-bottom: 0;
   margin-right: 0.9375rem;
@@ -46,15 +46,15 @@ main, .summer-share-icons, .summer-disqus {
   font-weight: 400;
   font-size: 2.625rem;
   height: 5rem; }
-  .summer-blog-menu .summer-mobile-menu a {
+  .notepad-blog-menu .notepad-mobile-menu a {
     display: inline-block;
     outline: none;
     color: black;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem; }
-    .summer-blog-menu .summer-mobile-menu a:hover {
+    .notepad-blog-menu .notepad-mobile-menu a:hover {
       color: black; }
-  .summer-blog-menu ul {
+  .notepad-blog-menu ul {
     background: black;
     position: absolute;
     width: 100%;
@@ -73,35 +73,35 @@ main, .summer-share-icons, .summer-disqus {
     transition: transform .3s;
     padding-top: 0;
     padding-bottom: 3.125rem; }
-    .summer-blog-menu ul li {
+    .notepad-blog-menu ul li {
       display: block;
       margin: 0;
       width: 100%;
       font-size: 2.25rem;
       text-align: center;
       padding: 0.3125rem; }
-      .summer-blog-menu ul li a {
+      .notepad-blog-menu ul li a {
         color: white;
         display: block;
         width: 100%;
         height: 100%;
         outline: none; }
-      .summer-blog-menu ul li.summer-mobile-close-btn {
+      .notepad-blog-menu ul li.notepad-mobile-close-btn {
         padding-right: 1.25rem; }
-        .summer-blog-menu ul li.summer-mobile-close-btn a {
+        .notepad-blog-menu ul li.notepad-mobile-close-btn a {
           color: white; }
-    .summer-blog-menu ul.opened {
+    .notepad-blog-menu ul.opened {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       -moz-transform: translate3d(0, 0, 0);
       -o-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
   @media only screen and (min-width: 40.063em) {
-    .summer-blog-menu {
+    .notepad-blog-menu {
       padding-top: 1.75rem;
       padding-bottom: 1.5625rem;
       font-size: 1rem; }
-      .summer-blog-menu ul {
+      .notepad-blog-menu ul {
         background: transparent;
         position: relative;
         width: auto;
@@ -117,30 +117,30 @@ main, .summer-share-icons, .summer-disqus {
         visibility: visible;
         padding-top: 0;
         padding-bottom: 0; }
-        .summer-blog-menu ul li {
+        .notepad-blog-menu ul li {
           display: inline-block;
           margin-left: 1.25rem;
           width: auto;
           font-size: 1rem;
           text-align: left;
           padding: 0; }
-          .summer-blog-menu ul li a {
+          .notepad-blog-menu ul li a {
             color: black;
             display: inline-block;
             border-bottom: 0.1875rem solid transparent;
             width: auto;
             height: auto; }
-            .summer-blog-menu ul li a:hover {
+            .notepad-blog-menu ul li a:hover {
               border-bottom: 0.1875rem solid #1cb28b; } }
 
-.summer-site-head .summer-site-head-menu {
+.notepad-site-head .notepad-site-head-menu {
   background: white; }
-  .summer-site-head .summer-site-head-menu .summer-blog-logo {
+  .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
     max-height: 5rem; }
-    .summer-site-head .summer-site-head-menu .summer-blog-logo img {
+    .notepad-site-head .notepad-site-head-menu .notepad-blog-logo img {
       max-height: 5rem; }
-  .summer-site-head .summer-site-head-menu .title {
+  .notepad-site-head .notepad-site-head-menu .title {
     display: inline-block;
     padding: 0;
     padding-left: 1.25rem;
@@ -153,99 +153,99 @@ main, .summer-share-icons, .summer-disqus {
     color: black;
     text-transform: uppercase;
     letter-spacing: -0.0625rem; }
-    .summer-site-head .summer-site-head-menu .title a {
+    .notepad-site-head .notepad-site-head-menu .title a {
       color: black; }
-      .summer-site-head .summer-site-head-menu .title a:hover {
+      .notepad-site-head .notepad-site-head-menu .title a:hover {
         color: black; }
-.summer-site-head .summer-site-head-content {
+.notepad-site-head .notepad-site-head-content {
   width: 100%;
   text-align: center;
   background-color: black;
   background-size: cover; }
-  .summer-site-head .summer-site-head-content.with-bg-cover {
+  .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
-  .summer-site-head .summer-site-head-content .summer-site-head-title-bg {
+  .notepad-site-head .notepad-site-head-content .notepad-site-head-title-bg {
     display: inline-block;
     padding: 0.625rem;
     background: #1cb28b;
     line-height: 1.1; }
-  .summer-site-head .summer-site-head-content h1, .summer-site-head .summer-site-head-content h2 {
+  .notepad-site-head .notepad-site-head-content h1, .notepad-site-head .notepad-site-head-content h2 {
     margin: 0;
     padding: 0;
     color: white;
     text-transform: uppercase; }
-  .summer-site-head .summer-site-head-content h1 {
+  .notepad-site-head .notepad-site-head-content h1 {
     padding-top: 4.375rem;
     font-size: 0.875rem;
     margin-bottom: 0.9375rem; }
-  .summer-site-head .summer-site-head-content h2 {
+  .notepad-site-head .notepad-site-head-content h2 {
     font-size: 2.5rem;
     padding-bottom: 5rem;
     font-weight: 700;
     line-height: 1.3; }
   @media only screen and (min-width: 40.063em) {
-    .summer-site-head .summer-site-head-content h1 {
+    .notepad-site-head .notepad-site-head-content h1 {
       padding-top: 7.5rem;
       font-size: 1rem; }
-    .summer-site-head .summer-site-head-content h2 {
+    .notepad-site-head .notepad-site-head-content h2 {
       font-size: 3.75rem;
       padding-bottom: 7.5rem;
       font-weight: 700; } }
   @media only screen and (min-width: 70em) {
-    .summer-site-head .summer-site-head-content h1 {
+    .notepad-site-head .notepad-site-head-content h1 {
       padding-top: 9.375rem;
       font-size: 1rem; }
-    .summer-site-head .summer-site-head-content h2 {
+    .notepad-site-head .notepad-site-head-content h2 {
       font-size: 4.375rem;
       padding-bottom: 9.375rem;
       font-weight: 700; } }
   @media only screen and (min-width: 90em) {
-    .summer-site-head .summer-site-head-content h1 {
+    .notepad-site-head .notepad-site-head-content h1 {
       padding-top: 10.3125rem; }
-    .summer-site-head .summer-site-head-content h2 {
+    .notepad-site-head .notepad-site-head-content h2 {
       font-size: 5rem;
       padding-bottom: 10.3125rem; } }
   @media only screen and (min-width: 100em) {
-    .summer-site-head .summer-site-head-content h1 {
+    .notepad-site-head .notepad-site-head-content h1 {
       padding-top: 12.5rem; }
-    .summer-site-head .summer-site-head-content h2 {
+    .notepad-site-head .notepad-site-head-content h2 {
       font-size: 6.25rem;
       padding-bottom: 12.5rem; } }
 
-.summer-content .summer-index-post {
+.notepad-content .notepad-index-post {
   visibility: hidden;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 0.0625rem solid #d9d9d9; }
-  .summer-content .summer-index-post:first-of-type {
+  .notepad-content .notepad-index-post:first-of-type {
     padding-top: 5rem; }
-  .summer-content .summer-index-post .datetime {
+  .notepad-content .notepad-index-post .datetime {
     margin-bottom: 2.5rem; }
   @media only screen and (min-width: 40.063em) {
-    .summer-content .summer-index-post {
+    .notepad-content .notepad-index-post {
       padding-top: 4.375rem;
       padding-bottom: 4.375rem; }
-      .summer-content .summer-index-post:first-of-type {
+      .notepad-content .notepad-index-post:first-of-type {
         padding-top: 7.5rem; }
-      .summer-content .summer-index-post .datetime {
+      .notepad-content .notepad-index-post .datetime {
         margin-bottom: 0; } }
-  .summer-content .summer-index-post .summer-post-meta {
+  .notepad-content .notepad-index-post .notepad-post-meta {
     display: block;
     text-align: center; }
-    .summer-content .summer-index-post .summer-post-meta .day {
+    .notepad-content .notepad-index-post .notepad-post-meta .day {
       display: block;
       font-size: 3.25rem;
       font-weight: 800;
       color: #1cb28b;
       font-family: "Montserrat", sans-serif; }
-    .summer-content .summer-index-post .summer-post-meta .month-year {
+    .notepad-content .notepad-index-post .notepad-post-meta .month-year {
       display: block;
       font-size: 1rem;
       color: black;
       font-size: 0.875rem;
       font-family: "Montserrat", sans-serif;
       text-transform: uppercase; }
-  .summer-content .summer-index-post .summer-post-header .summer-post-title {
+  .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
     color: black;
     font-weight: 700;
     text-transform: uppercase;
@@ -254,32 +254,32 @@ main, .summer-share-icons, .summer-disqus {
     margin: 0;
     padding: 0;
     line-height: 1.1; }
-    .summer-content .summer-index-post .summer-post-header .summer-post-title a {
+    .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a {
       color: black; }
   @media only screen and (min-width: 40.063em) {
-    .summer-content .summer-index-post .summer-post-header .summer-post-title {
+    .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
       text-align: left;
       font-size: 2.125rem;
       margin-bottom: 0.9375rem; } }
-  .summer-content .summer-index-post .summer-post-excerpt {
+  .notepad-content .notepad-index-post .notepad-post-excerpt {
     color: black;
     font-size: 1.25rem;
     margin-top: 0.625rem;
     text-align: center; }
-    .summer-content .summer-index-post .summer-post-excerpt p {
+    .notepad-content .notepad-index-post .notepad-post-excerpt p {
       margin: 0;
       font-size: 1.25rem; }
   @media only screen and (min-width: 40.063em) {
-    .summer-content .summer-index-post .summer-post-excerpt {
+    .notepad-content .notepad-index-post .notepad-post-excerpt {
       text-align: left; } }
-  .summer-content .summer-index-post .summer-index-post-tags {
+  .notepad-content .notepad-index-post .notepad-index-post-tags {
     font-size: 0.8125rem;
     float: none;
     color: black;
     text-align: center;
     padding-top: 1.25rem;
     padding-bottom: 0.625rem; }
-    .summer-content .summer-index-post .summer-index-post-tags a {
+    .notepad-content .notepad-index-post .notepad-index-post-tags a {
       display: inline-block;
       padding: 0.3125rem 0.9375rem;
       margin-right: 0.1875rem;
@@ -287,16 +287,16 @@ main, .summer-share-icons, .summer-disqus {
       border: 0.0625rem solid black;
       border-radius: 0.125rem;
       margin-bottom: 0.3125rem; }
-      .summer-content .summer-index-post .summer-index-post-tags a:hover {
+      .notepad-content .notepad-index-post .notepad-index-post-tags a:hover {
         color: #1cb28b;
         border: 0.0625rem solid #1cb28b; }
   @media only screen and (min-width: 40.063em) {
-    .summer-content .summer-index-post .summer-index-post-tags {
+    .notepad-content .notepad-index-post .notepad-index-post-tags {
       padding-top: 0.3125rem;
       padding-bottom: 0.3125rem;
       text-align: left;
       float: left; } }
-  .summer-content .summer-index-post .summer-post-read-more {
+  .notepad-content .notepad-index-post .notepad-post-read-more {
     display: block;
     text-align: center;
     float: none;
@@ -313,10 +313,10 @@ main, .summer-share-icons, .summer-disqus {
     transition: background-color .3s;
     width: 60%;
     border-radius: 0.125rem; }
-    .summer-content .summer-index-post .summer-post-read-more:hover {
+    .notepad-content .notepad-index-post .notepad-post-read-more:hover {
       background-color: #1cb28b; }
   @media only screen and (min-width: 40.063em) {
-    .summer-content .summer-index-post .summer-post-read-more {
+    .notepad-content .notepad-index-post .notepad-post-read-more {
       width: auto;
       float: left;
       margin-left: 0;
@@ -351,39 +351,39 @@ nav.pagination {
   nav.pagination .older-posts .fa {
     margin-left: 0.625rem; }
 
-.summer-site-footer {
+.notepad-site-footer {
   background: black; }
-  .summer-site-footer.with-bg-cover {
+  .notepad-site-footer.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
-  .summer-site-footer .social-icons,
-  .summer-site-footer .copyright {
+  .notepad-site-footer .social-icons,
+  .notepad-site-footer .copyright {
     width: 100%;
     padding: 0;
     text-align: center; }
-  .summer-site-footer .copyright {
+  .notepad-site-footer .copyright {
     color: white;
     float: none;
     text-align: center;
     font-size: 0.8125rem;
     padding-top: 3.75rem;
     padding-bottom: 1.25rem; }
-    .summer-site-footer .copyright a {
+    .notepad-site-footer .copyright a {
       color: white; }
-  .summer-site-footer .social-icons {
+  .notepad-site-footer .social-icons {
     text-align: center;
     float: none;
     padding-bottom: 3.75rem; }
-    .summer-site-footer .social-icons a {
+    .notepad-site-footer .social-icons a {
       color: black; }
   @media only screen and (min-width: 70em) {
-    .summer-site-footer .social-icons,
-    .summer-site-footer .copyright {
+    .notepad-site-footer .social-icons,
+    .notepad-site-footer .copyright {
       width: 49%;
       padding: 5rem; }
-    .summer-site-footer .copyright {
+    .notepad-site-footer .copyright {
       text-align: left;
       float: left; }
-    .summer-site-footer .social-icons {
+    .notepad-site-footer .social-icons {
       text-align: right;
       float: right; } }
 
@@ -418,15 +418,15 @@ nav.pagination {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0); } }
-.tag-template .summer-index-post:first-of-type {
+.tag-template .notepad-index-post:first-of-type {
   padding-top: 3.125rem; }
   @media only screen and (min-width: 40.063em) {
-    .tag-template .summer-index-post:first-of-type {
+    .tag-template .notepad-index-post:first-of-type {
       padding-top: 4.6875rem; } }
 
-.summer-tags-container {
+.notepad-tags-container {
   background: #f2f2f2; }
-  .summer-tags-container .summer-tags-header {
+  .notepad-tags-container .notepad-tags-header {
     font-family: "Montserrat", sans-serif;
     font-size: 1.125rem;
     color: black;
@@ -436,11 +436,11 @@ nav.pagination {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
     text-align: center; }
-    .summer-tags-container .summer-tags-header .tag-name {
+    .notepad-tags-container .notepad-tags-header .tag-name {
       color: #1cb28b;
       text-transform: none; }
     @media only screen and (min-width: 40.063em) {
-      .summer-tags-container .summer-tags-header {
+      .notepad-tags-container .notepad-tags-header {
         font-size: 1.5625rem; } }
 figure {
     margin: 0;
