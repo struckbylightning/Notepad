@@ -14,21 +14,21 @@ Below mindmap and example code will explain,
 - Object Oriented Programming basics
 - Lightning component basics
 + ComponentBundle
-+Example OpenTheDoor application which consists of
-    	-`OpenTheDoor.app` (container for holding the guy & the door)
++ Example OpenTheDoor application which consists of
+    	- `OpenTheDoor.app` (container for holding the guy & the door)
         
 ```html
 <!--OpenTheDoor.app (container for holding the guy & the door)-->
 ```
-    	-`guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)
+    	- `guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)
    ```html
     	<!--`guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)-->
 ```
-   		-`openDoor.evt` (fired when guy knocks the door)          
+   		- `openDoor.evt` (fired when guy knocks the door)          
 ```html
         <!--`openDoor.evt` (fired when guy knocks the door)-->       
 ```
-        -`door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging the receipt of the event)
+        - `door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging the receipt of the event)
         ```html
         <!--`door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging-->
 ```
