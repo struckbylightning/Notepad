@@ -22,17 +22,17 @@ Below mindmap and example code will explain,
     	2. `guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)
         
 ```html
-    	<!--`guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)-->
+    	<!--guy.cmp (On clik of 'Knock Knock!' fires openDoor Event)-->
 ```
 		3. `openDoor.evt` (fired when guy knocks the door) 
         
 ```html
-        <!--`openDoor.evt` (fired when guy knocks the door)-->       
+        <!--openDoor.evt (fired when guy knocks the door)-->       
 ```
 		4. `door.cmp` (Listens(registers) to the openDoor event and accordingly acknowledges) 
         
 ```html
-        <!--`door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging-->
+        <!--door.cmp (Listens(registers) to the openDoor event and accordingly acknowledges-->
 ```
   
   <embed src="{{site.baseurl}}/images/lightningComponentMindMap.pdf" width="800px" height="800px" />
