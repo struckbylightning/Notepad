@@ -6,11 +6,10 @@
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 <header class="notepad-site-head">
     <div class="notepad-site-head-menu">
-       
                     <span class="title">
-                        <a href="https://struckbylightning.github.io">Nikunj Doshi</a>
-                    </span>  
-        
+                       <a href="https://struckbylightning.github.io">{{ site.title }}
+</a>
+                    </span> 
         <div class="notepad-blog-menu">      
     <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
@@ -19,13 +18,13 @@
         <li class="notepad-mobile-close-btn show-for-small text-right">
             <a href="#"><i class="fa fa-times"></i></a>
         </li>
-{% for link in site.links %}
+        {% for link in site.links %}
             <li>{% if link.external %}
             <a href="{{ link.url }}">{{ link.title }}</a>
             {% else %}
             <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
             {% endif %} </li>
-{% endfor %}            
+         {% endfor %}            
            <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
     </ul>
 </div>
@@ -35,10 +34,16 @@
         <div class="notepad-site-head-bg"></div>
         <h1 class="notepad-blog-title">
             <span class="notepad-site-head-title-bg">
-                {{ site.title }}
+                <span style="/* padding-bottom: 8rem; */color:white;">
+                            <a href="http://developer.salesforce.com" style="color:white">Salesforce</a>
+                            <i class="fa fa-heart"></i>
+                            <a href="https://developer.salesforce.com/lightning" style="color:white">Lightning</a> 
+                            <i class="fa fa-heart"></i> 
+                            <a href="https://trailhead.salesforce.com" style="color:white">Trailhead</a>
+                </span>
             </span>
         </h1>
-        <h2 class="notepad-blog-description">{{ site.description }}</h2>
+        <h2 class="notepad-blog-description">{{ site.description }}</h2>       
     </div>
 </header>
 
