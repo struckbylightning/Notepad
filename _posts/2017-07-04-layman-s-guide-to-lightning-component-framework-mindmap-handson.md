@@ -19,7 +19,7 @@ Below mindmap and example code will explain,
         
 ```html
 <!--OpenTheDoor.app (container for holding the guy & the door)-->
-```
+````
     	- `guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)
    ```html
     	<!--`guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)-->
