@@ -12,7 +12,7 @@ tags:
   - dynamic apex
   - reusable code
 ---
-```java
+```
 public static List<String> getPicklistFieldValues
 							(String objectName, String pickListFieldName){
         List<String> picklistValues = new List<String>();
