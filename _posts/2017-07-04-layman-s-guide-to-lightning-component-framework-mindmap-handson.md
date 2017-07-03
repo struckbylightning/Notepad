@@ -29,7 +29,7 @@ Below mindmap and example code will explain,
 ```html
         <!--`openDoor.evt` (fired when guy knocks the door)-->       
 ```
-		4. `door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging the receipt of the event)
+		4. `door.cmp` (Listens(registers) to the openDoor event and accordingly acknowledges)
         
 ```html
         <!--`door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging-->
