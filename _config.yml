@@ -46,10 +46,11 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Calcutta
 future:      true
-highlighter: rogue
+#highlighter: rogue
 markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
+highlight_theme: light
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
@@ -59,7 +60,9 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  use_coderay: false  
+  input: GFM
+  syntax_highlighter: rouge
 
   coderay:
     coderay_line_numbers: 
