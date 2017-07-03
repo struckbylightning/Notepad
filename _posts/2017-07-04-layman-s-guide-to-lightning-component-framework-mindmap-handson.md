@@ -2,8 +2,8 @@
 layout: post
 published: true
 mathjax: false
-featured: false
-comments: false
+featured: true
+comments: true
 title: Layman`s guide to Lightning Component Framework (Mindmap + Handson)
 ---
 ## Here\`s a simple laymans guide to learning Salesforce\`s Lightning Component Framework
