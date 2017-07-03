@@ -22,7 +22,7 @@ Below mindmap and example code will explain,
 ```
     	- `guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)
         
-   ```html
+```html
     	<!--`guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)-->
 ```
    		- `openDoor.evt` (fired when guy knocks the door)    
@@ -32,7 +32,7 @@ Below mindmap and example code will explain,
 ```
        	- `door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging the receipt of the event)
         
-        ```html
+```html
         <!--`door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging-->
 ```
   
