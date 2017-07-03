@@ -24,13 +24,11 @@ Below mindmap and example code will explain,
 ```html
     	<!--`guy.cmp` (On clik of 'Knock Knock!' fires openDoor Event)-->
 ```
-		3. `openDoor.evt` (fired when guy knocks the door)  
-        
+		3. `openDoor.evt` (fired when guy knocks the door)         
 ```html
         <!--`openDoor.evt` (fired when guy knocks the door)-->       
 ```
-		4. `door.cmp` (Listens(registers) to the openDoor event and accordingly acknowledges)
-        
+		4. `door.cmp` (Listens(registers) to the openDoor event and accordingly acknowledges)        
 ```html
         <!--`door.cmp` (Listens(registers) to the openDoor event and accordingly opens the door acknowledging-->
 ```
