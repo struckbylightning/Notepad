@@ -31,8 +31,5 @@ Below mindmap and example code will explain,
 ```html
         <!--door.cmp (Listens(registers) to the openDoor event and accordingly acknowledges-->
 ```  
-  <embed src="{{site.baseurl}}/images/lightningComponentMindMap.pdf" width="800px" height="800px" />
-_Mind Map_
-
-
-
+  <!--<embed src="{{site.baseurl}}/images/lightningComponentMindMap.pdf" width="800px" height="800px" />
+_Mind Map_-->
