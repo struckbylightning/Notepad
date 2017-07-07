@@ -10,22 +10,22 @@ title: Layman`s guide to Lightning Component Framework (Mindmap + Handson)
 
 Best way to learn, is to start building simple components which can help us understand the basics which power the lightning framework, so let\`s straight away dive into code.
 
-## Let\`s start by building a simple wishlist app which will help us list down the items we desire along with the cost to buy.
+### Let\`s start by building a simple wishlist app which will help us list down the items we desire along with the cost to buy.
 
-### To start, let\`s build a simple static component named `aWishListItem.cmp` (Go to Developer Console-> File -> New Lightning component -> name it as aWishListItem
+To start, let\`s build a simple static component named `aWishListItem.cmp` (Go to Developer Console-> File -> New Lightning component -> name it as aWishListItem
 ```html
 <aura:component>
   <h2>Item Name: <ui:outputText value="Fidget Spinner"/></h2>
   <h3>Will cost: <ui:outputCurrency currencySymbol="₹" value="250"/></h3>   
 </aura:component>
 ```
-### Now let\`s create new container component which will hold our wishes named `wishlist.cmp`
+ Now let\`s create new container component which will hold our wishes named `wishlist.cmp`
 ```html
 <aura:component >
     <c:wishlistItem/>
 </aura:component>
 ```
-### And then inorder to preview our wishlist.cmp let\`s add it to a new application named wishlistApp.app
+And then inorder to preview our wishlist.cmp let\`s add it to a new application named wishlistApp.app
 ```html
 <aura:application >
     <c:wishList/>
@@ -37,7 +37,7 @@ Here\`s the preview of our application built so far.
 ### Offcourse you would not be creating a component to display one wishlist item and make another coponent when you want to display another fruit, so how you do you make fruit.cmp **dynamic**??
 
 And that brings to our first topic,
-# 1. Using Attributes and Expression.
+## 1. Using Attributes and Expression.
 We will leverage aura:attributes which are the properties that we pass in to our component to customize its behaviour (what it renders), let\`s look at updated version of our previous components.
 `wishlistItem.cmp`
 ```html
@@ -69,13 +69,13 @@ Here\`s the much awaited preview of our awesome `wishlist.app`
 Now that we understand how to use attributes, let\`s look at few examples of expressions and what they evaluate to,
 
 ..........
-## Company 'Dreams come true' is planning to expose our wishlist application to their employees so that they can help make them come true, let\`s create custom object named WishList_Item__c with fields Name (Text), Cost__c (Currency) & Dreamer__c (User Lookup) so that employee\`s wishes can be persisted in salesforce database for company to act upon.
+** Company 'Dreams come true' is planning to expose our wishlist application to their employees so that they can help make them come true, let\`s create custom object named WishList_Item__c with fields Name (Text), Cost__c (Currency) & Dreamer__c (User Lookup) so that employee\`s wishes can be persisted in salesforce database for company to act upon.**
 
 Create few sample wishlist items records for user 'Nikunj',
 [Screenshot here]
 
 Now when Nikunj opens up the wishlist.app he should see the couple of items created above, how can we achieve it??
-# 2. Communicating with Server
+## 2. Communicating with Server
 
 ```
 `APXWishlistController.apxc`
@@ -106,14 +106,14 @@ public List<WishList_Item__c> getMyWishListItems(){
 })
 
 
-## Let\`s add some css to make our wishlist application look as pretty as our wishes.
-# 3. Adding CSS
+### Let\`s add some css to make our wishlist application look as pretty as our wishes.
+## 3. Adding CSS
 
 -----------
 
-# 4. Event handlers (Add Edit Remove button code)
+## 4. Event handlers (Add Edit Remove button code)
 
-# 5. Communicating data between components
+## 5. Communicating data between components
 - `OpenTheDoor.app` (container for holding the guy & the door)          
 ```html
 	<!-- OpenTheDoor.app (container for holding the guy & the door)-->
