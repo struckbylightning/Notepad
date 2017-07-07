@@ -8,6 +8,9 @@ title: Layman`s guide to Lightning Component Framework (Mindmap + Handson)
 tags: lightning component guide layman salesforce begineer attributes servercall
 categories:
   - lightning
+headline: Layman`s guide to Salesforce`s Lightning Component Framework
+description: For beginners
+modified: '2017-07-08'
 ---
 ## Here\`s a simple laymans guide to learning Salesforce\`s Lightning Component Framework
 
