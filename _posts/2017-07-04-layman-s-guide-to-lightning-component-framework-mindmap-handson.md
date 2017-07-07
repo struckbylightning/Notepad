@@ -70,18 +70,13 @@ Here\`s the much awaited preview of our awesome `wishlist.app`
 Now that we understand how to use attributes, let\`s look at few examples of expressions and what they evaluate to,
 
 ..........
-
-## Let\`s add some css to make our wishlist application look as pretty as our wishes.
-# 2. Adding CSS
-
------------
 ## Company 'Dreams come true' is planning to expose our wishlist application to their employees so that they can help make them come true, let\`s create custom object named WishList_Item__c with fields Name (Text), Cost__c (Currency) & Dreamer__c (User Lookup) so that employee\`s wishes can be persisted in salesforce database for company to act upon.
 
 Create few sample wishlist items records for user 'Nikunj',
 [Screenshot here]
 
 Now when Nikunj opens up the wishlist.app he should see the couple of items created above, how can we achieve it??
-# Communicating with Server
+# 2. Communicating with Server
 
 ```
 `APXWishlistController.apxc`
@@ -111,7 +106,15 @@ public List<WishList_Item__c> getMyWishListItems(){
 	}
 })
 
-### 3. Communicating data between components
+
+## Let\`s add some css to make our wishlist application look as pretty as our wishes.
+# 3. Adding CSS
+
+-----------
+
+# 4. Event handlers (Add Edit Remove button code)
+
+# 5. Communicating data between components
 - `OpenTheDoor.app` (container for holding the guy & the door)          
 ```html
 	<!-- OpenTheDoor.app (container for holding the guy & the door)-->
