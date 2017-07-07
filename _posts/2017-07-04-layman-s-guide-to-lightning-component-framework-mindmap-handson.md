@@ -38,7 +38,7 @@ Here\`s the preview of our application built so far.
 ### Offcourse you would not be creating a component to display one wishlist item and make another coponent when you want to display another fruit, so how you do you make fruit.cmp **dynamic**??
 
 And that brings to our first topic,
-# Using Attributes and Expression.
+# 1. Using Attributes and Expression.
 We will leverage aura:attributes which are the properties that we pass in to our component to customize its behaviour (what it renders), let\`s look at updated version of our previous components.
 `wishlistItem.cmp`
 ```html
@@ -65,7 +65,39 @@ Observe,
 2. {!v.} here v represt\`s View also called as value provider, holds all the attribute values.
 
 Here\`s the much awaited preview of our awesome `wishlist.app`
+![attributeWishList.gif]({{site.baseurl}}/images/attributeWishList.gif)
 
+Now that we understand how to use attributes, let\`s look at few examples of expressions and what they evaluate to,
+
+..........
+
+## Let\`s add some css to make our wishlist application look as pretty as our wishes.
+# 2. Adding CSS
+
+-----------
+## Company 'Dreams come true' is planning to expose our wishlist application to their employees so that they can help make them come true, let\`s create custom object named WishList_Item__c with fields Name (Text), Cost__c (Currency) & Dreamer__c (User Lookup) so that employee\`s wishes can be persisted in salesforce database for company to act upon.
+
+Create few sample wishlist items records for user 'Nikunj',
+[Screenshot here]
+
+Now when Nikunj opens up the wishlist.app he should see the couple of items created above, how can we achieve it??
+# Communicating with Server
+
+`wishlist.cmp` -- init handler to call getMyWishes
+`wishlistController.js` -- function getMyWishes to call apex method getMyWishListItems'
+```js
+({
+	getMyWishes : function(component, event, helper) {
+		//Call APXWishlistController\`s getMyWishListItems
+	}
+})
+```
+`APXWishlistController.apxc`
+```java
+public List<WishList_Item__c> getMyWishListItems(){
+  return [Select Name, Cost__c from WishList_Item__c where Dreamer__c =: UserInfo.getUserId()];
+  }
+```
 
 
 ### 3. Communicating data between components
