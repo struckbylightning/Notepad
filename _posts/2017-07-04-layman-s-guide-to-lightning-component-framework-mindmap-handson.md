@@ -83,14 +83,6 @@ Create few sample wishlist items records for user 'Nikunj',
 Now when Nikunj opens up the wishlist.app he should see the couple of items created above, how can we achieve it??
 # Communicating with Server
 
-`wishlist.cmp` -- init handler to call getMyWishes
-`wishlistController.js` -- function getMyWishes to call apex method getMyWishListItems'
-```js
-({
-	getMyWishes : function(component, event, helper) {
-		//Call APXWishlistController\`s getMyWishListItems
-	}
-})
 ```
 `APXWishlistController.apxc`
 ```java
@@ -99,6 +91,25 @@ public List<WishList_Item__c> getMyWishListItems(){
   }
 ```
 
+`wishlist.cmp` attribute to store array of wishitems returned from server and init handler to perform the logic to call server method to query and get related wishlist items for logged in user and set components attribute with the same 
+```html
+<aura:component >
+    <aura:attribute name="wishlistItems" type="WishList_Item__c[]" default="false"/>
+    <h1>My Wish List</h1>
+    <aura:handler name="init" value="{!this}" action="{!c.getMyWishes}"/>
+    <aura:iteration var="item" items="{!v.wishlistItems}">
+        <c:wishlistItem itemName="Fidget Spinner" cost="250"/>
+    </aura:iteration>
+</aura:component>    
+```
+`wishlistController.js` -- function getMyWishes to call apex method getMyWishListItems'
+```js
+({
+	getMyWishes : function(component, event, helper) {
+		//Call APXWishlistController\`s getMyWishListItems
+        //Set wishlistItems
+	}
+})
 
 ### 3. Communicating data between components
 - `OpenTheDoor.app` (container for holding the guy & the door)          
