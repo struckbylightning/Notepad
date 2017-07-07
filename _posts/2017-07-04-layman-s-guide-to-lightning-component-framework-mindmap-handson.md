@@ -8,14 +8,68 @@ title: Layman`s guide to Lightning Component Framework (Mindmap + Handson)
 ---
 ## Here\`s a simple laymans guide to learning Salesforce\`s Lightning Component Framework
 
-Below mindmap and example code will explain,
-- What is Lightning component framework
-- Javascript basics
-- Object Oriented Programming basics
-- Lightning component basics
-	+ ComponentBundle
-	+ Example OpenTheDoor application which consists of,    	
-        - `OpenTheDoor.app` (container for holding the guy & the door)          
+Best way to learn, is to start building simple components which can help us understand the basics which power the lightning framework, so let\`s straight away dive into code.
+
+## Let\`s start by building a simple wishlist app which will help us list down the items we desire along with the cost to buy.
+' along with of a specific present and rate per piece and later upgrade it so that we can add/edit/remove
+
+### To start, let\`s build a simple static component named `aWishListItem.cmp` (Go to Developer Console-> File -> New Lightning component -> name it as aWishListItem
+```html
+<aura:component>
+  <h2>Item Name: <ui:outputText value="Fidget Spinner"/></h2>
+  <h3>Will cost: <ui:outputCurrency currencySymbol="₹" value="250"/></h3>   
+</aura:component>
+```
+### Now let\`s create new container component which will hold our wishes named `wishlist.cmp`
+```html
+<aura:component >
+    <c:wishlistItem/>
+</aura:component>
+```
+### And then inorder to preview our wishlist.cmp let\`s add it to a new application named wishlistApp.app
+```html
+<aura:application >
+    <c:wishList/>
+</aura:application>
+```
+Here\`s the preview of our application built so far.
+![staticWishList.gif]({{site.baseurl}}/images/staticWishList.gif)
+
+### Offcourse you would not be creating a component to display one wishlist item and make another coponent when you want to display another fruit, so how you do you make fruit.cmp **dynamic**??
+
+And that brings to our first topic,
+# Using Attributes and Expression.
+We will leverage aura:attributes which are the properties that we pass in to our component to customize its behaviour (what it renders), let\`s look at updated version of our previous components.
+`wishlistItem.cmp`
+```html
+<aura:component>
+    <aura:attribute name="itemName" type="String"/>
+    <aura:attribute name="cost" type="String"/>
+    <div>
+        <h2>Item Name: 
+  			<ui:outputText value="{!v.itemName}"/>		  </h2>
+    	<h3>Will cost: 
+  			<ui:outputCurrency currencySymbol="₹" 	                              value="{!v.cost}"/>
+  		</h3> 
+        </div>
+</aura:component>```
+`wishlist.cmp`
+```html
+<aura:component >
+    <c:wishlistItem itemName="Fidget Spinner" cost="250"/>
+    <c:wishlistItem itemName="Peace of Mind" cost="0"/>
+</aura:component>
+```
+Observe,
+1. {!...} is called expression language syntax in simple words whatever is there inside the curly brace syntax instead of just printing them framework will treat them specially and evaluate them instead, thereby replace it with correponding attributes value.
+2. {!v.} here v represt\`s View also called as value provider, holds all the attribute values.
+
+Here\`s the much awaited preview of our awesome `wishlist.app`
+
+
+
+### 3. Communicating data between components
+- `OpenTheDoor.app` (container for holding the guy & the door)          
 ```html
 	<!-- OpenTheDoor.app (container for holding the guy & the door)-->
 ```
