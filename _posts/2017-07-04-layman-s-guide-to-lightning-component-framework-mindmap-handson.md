@@ -11,7 +11,6 @@ title: Layman`s guide to Lightning Component Framework (Mindmap + Handson)
 Best way to learn, is to start building simple components which can help us understand the basics which power the lightning framework, so let\`s straight away dive into code.
 
 ## Let\`s start by building a simple wishlist app which will help us list down the items we desire along with the cost to buy.
-' along with of a specific present and rate per piece and later upgrade it so that we can add/edit/remove
 
 ### To start, let\`s build a simple static component named `aWishListItem.cmp` (Go to Developer Console-> File -> New Lightning component -> name it as aWishListItem
 ```html
