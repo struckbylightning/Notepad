@@ -17,7 +17,7 @@ categories:
   - LightningComponent
 tags: 'LightningComponent,reusable component,AdminsFavorite'
 ---
-Reusable Lightning Component,
+Reusable Lightning Component
 
 -Are you using LeX?
 -Do you need to show few input fields only on basis of certain filter criteria (can\`t create new recordtype)?
@@ -28,16 +28,18 @@ Reusable Lightning Component,
 ### If answer to above question is yes look no further, below component is match made in heaven, as it will let you to do the following,
 
 1. Let you declare the fields for component in fieldset
-
+   ![fieldset.PNG]({{site.baseurl}}/images/fieldset.PNG)
 
 2. Leaverage appbuilder to drag and drop it onto record pages of your choice.
    -Configure the components attributes(object, title, icon, mode(Input/Output) ) 
    -Filter conditions when the component need to be shown.
+   ![appbuilder config.PNG]({{site.baseurl}}/images/appbuilder%20config.PNG)
    
 3. Here\`s how it looks,
 	-Input Mode
+    --![inputMode.PNG]({{site.baseurl}}/images/inputMode.PNG)
     -Output Mode
-    
+    --![outputMode.PNG]({{site.baseurl}}/images/outputMode.PNG)
 
 Unmanaged Package Link - https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0
 
