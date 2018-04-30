@@ -30,6 +30,9 @@ You\`ll be able to declare fields in fieldset and leaverage appbuilder to drag a
 
 Unmanaged Package Link - https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0
 
+Demo - 
+
+
 
 ```html
 <aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="FieldSetController">
