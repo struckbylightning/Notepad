@@ -18,22 +18,32 @@ categories:
 tags: 'LightningComponent,reusable component,AdminsFavorite'
 ---
 
-Are you using LeX?
-Do you need to show few input fields only on basis of certain filter criteria (can\`t create new recordtype)?
-Want to  have flexibility to add/remove/reorder the displayed fields?
-Also need flexibility to change the title/icon of the form component?
-Added flexibility of having the form support both output(read-only) / input(Create / Update) will not hurt?
+-Are you using LeX?
+-Do you need to show few input fields only on basis of certain filter criteria (can\`t create new recordtype)?
+-Want to  have flexibility to add/remove/reorder the displayed fields?
+-Also need flexibility to change the title/icon of the form component?
+-Added flexibility of having the form support both output(read-only) / input(Create / Update) will not hurt?
 
-If answer to above question is yes look no further, below component is match made in heaven.
+### If answer to above question is yes look no further, below component is match made in heaven, as it will let you to do the following,
 
-You\`ll be able to declare fields in fieldset and leaverage appbuilder to drag and configure the components onto the record pages you wish, just that simple!
+1. Let you declare the fields for component in fieldset
+
+
+2. Leaverage appbuilder to drag and drop it onto record pages of your choice.
+   -Configure the components attributes(object, title, icon, mode(Input/Output) ) 
+   -Filter conditions when the component need to be shown.
+   
+3. Here\`s how it looks,
+	-Input Mode
+    -Output Mode
+    
 
 Unmanaged Package Link - https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0
 
 Demo - 
 ![fieldsetFormLC.gif]({{site.baseurl}}/images/fieldsetFormLC.gif)
 
-
+Code Snippets -
 
 ```html
 <aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="FieldSetController">
