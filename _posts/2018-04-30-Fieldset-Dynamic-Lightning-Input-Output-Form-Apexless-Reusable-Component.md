@@ -17,7 +17,7 @@ categories:
   - LightningComponent
 tags: 'LightningComponent,reusable component,AdminsFavorite'
 ---
-Reusable Lightning Component
+Reusable Lightning Component,
 
 -Are you using LeX?
 -Do you need to show few input fields only on basis of certain filter criteria (can\`t create new recordtype)?
