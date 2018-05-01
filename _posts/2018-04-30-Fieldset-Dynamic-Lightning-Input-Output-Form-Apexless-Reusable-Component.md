@@ -27,6 +27,7 @@ Few questions for you,
 
 1. Declare the fields for component in fieldset
    ![fieldset.PNG]({{site.baseurl}}/images/fieldset.PNG)
+   
 
 2. Leaverage appbuilder to drag and drop it onto record pages of your choice.
    - Configure the components attributes(object, title, icon, mode(Input/Output) ) 
