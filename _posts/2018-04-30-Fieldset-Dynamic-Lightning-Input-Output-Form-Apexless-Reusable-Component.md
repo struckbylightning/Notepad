@@ -17,13 +17,13 @@ categories:
   - LightningComponent
 tags: 'LightningComponent,reusable component,AdminsFavorite'
 ---
-Reusable Lightning Component
+Few questions for you,
 
--Are you using LeX?
--Do you need to show few input fields only on basis of certain filter criteria (can\`t create new recordtype)?
--Want to  have flexibility to add/remove/reorder the displayed fields?
--Also need flexibility to change the title/icon of the form component?
--Added flexibility of having the form support both output(read-only) / input(Create / Update) will not hurt?
+- Are you using LeX?
+- Do you need to show few input fields only on basis of certain filter criteria (can\`t create new recordtype)?
+- Want to have flexibility to add/remove/reorder the displayed fields?
+- Also need flexibility to change the title/icon of the form component?
+- Added flexibility of having the form support both output (read-only)  input(Create / Update) will not hurt?
 
 ### If answer to above question is yes look no further, below component is match made in heaven, as it will let you to do the following,
 
@@ -31,22 +31,22 @@ Reusable Lightning Component
    ![fieldset.PNG]({{site.baseurl}}/images/fieldset.PNG)
 
 2. Leaverage appbuilder to drag and drop it onto record pages of your choice.
-   -Configure the components attributes(object, title, icon, mode(Input/Output) ) 
-   -Filter conditions when the component need to be shown.
+   - Configure the components attributes(object, title, icon, mode(Input/Output) ) 
+   - Filter conditions when the component need to be shown.
    ![appbuilder config.PNG]({{site.baseurl}}/images/appbuilder%20config.PNG)
    
 3. Here\`s how it looks,
-	-Input Mode
-    --![inputMode.PNG]({{site.baseurl}}/images/inputMode.PNG)
-    -Output Mode
-    --![outputMode.PNG]({{site.baseurl}}/images/outputMode.PNG)
+	- Input Mode
+    -- ![inputMode.PNG]({{site.baseurl}}/images/inputMode.PNG)
+    - Output Mode
+    -- ![outputMode.PNG]({{site.baseurl}}/images/outputMode.PNG)
 
-Unmanaged Package Link - https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0
+Unmanaged Package Link: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
 
-Demo - 
+Demo:
 ![fieldsetFormLC.gif]({{site.baseurl}}/images/fieldsetFormLC.gif)
 
-Code Snippets -
+Code Snippets:
 
 ```html
 <aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="FieldSetController">
