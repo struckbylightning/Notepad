@@ -33,6 +33,7 @@ Few questions for you,
    - Filter conditions when the component need to be shown.
    ![appbuilder config.PNG]({{site.baseurl}}/images/appbuilder%20config.PNG)
    
+   
 3. And here\`s how it looks,
 	- Input Mode
     -- ![inputMode.PNG]({{site.baseurl}}/images/inputMode.PNG)
