@@ -25,7 +25,7 @@ Few questions for you,
 
 ### If answer to above question is yes look no further, below component is match made in heaven, as it will let you to do the following,
 
-1. Lets you declare the fields for component in fieldset
+1. Declare the fields for component in fieldset
    ![fieldset.PNG]({{site.baseurl}}/images/fieldset.PNG)
 
 2. Leaverage appbuilder to drag and drop it onto record pages of your choice.
@@ -33,7 +33,7 @@ Few questions for you,
    - Filter conditions when the component need to be shown.
    ![appbuilder config.PNG]({{site.baseurl}}/images/appbuilder%20config.PNG)
    
-3. Here\`s how it looks,
+3. And here\`s how it looks,
 	- Input Mode
     -- ![inputMode.PNG]({{site.baseurl}}/images/inputMode.PNG)
     - Output Mode
