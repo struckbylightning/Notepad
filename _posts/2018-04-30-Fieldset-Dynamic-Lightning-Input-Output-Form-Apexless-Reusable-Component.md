@@ -41,12 +41,12 @@ Few questions for you,
     - Output Mode
     -- ![outputMode.PNG]({{site.baseurl}}/images/outputMode.PNG)
 
-Unmanaged Package Link (free, free, free!): [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
+**Unmanaged Package Link (free, free, free!):** [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
 
-Demo:
+**Demo:**
 ![fieldsetFormLC.gif]({{site.baseurl}}/images/fieldsetFormLC.gif)
 
-Code Snippets:
+**Code Snippets:**
 
 ```html
 <aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="FieldSetController">
