@@ -27,7 +27,7 @@ Few questions for you,
 
 ### If answer to above question is yes look no further, below component is match made in heaven, as it will let you to do the following,
 
-1. Let you declare the fields for component in fieldset
+1. Lets you declare the fields for component in fieldset
    ![fieldset.PNG]({{site.baseurl}}/images/fieldset.PNG)
 
 2. Leaverage appbuilder to drag and drop it onto record pages of your choice.
