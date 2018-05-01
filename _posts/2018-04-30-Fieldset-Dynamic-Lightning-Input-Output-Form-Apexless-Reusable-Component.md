@@ -19,7 +19,7 @@ tags: 'LightningComponent,reusable component,AdminsFavorite'
 ---
 Few questions for you,
 
-- Are you using LeX?
+- Are you using Salesforce Lightning Experience?
 - Do you need to show few input fields only on basis of certain filter criteria (can\`t create new recordtype)?
 - Want to have flexibility to add/remove/reorder the displayed fields?
 - Also need flexibility to change the title/icon of the form component?
