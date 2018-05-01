@@ -13,7 +13,7 @@ description: >-
   component.
 categories:
   - LightningComponent
-tags: 'LightningComponent, Freebies'
+tags: 'LightningComponent, Freebies, FieldSet, Appbuilder'
 ---
 Few questions for you,
 
