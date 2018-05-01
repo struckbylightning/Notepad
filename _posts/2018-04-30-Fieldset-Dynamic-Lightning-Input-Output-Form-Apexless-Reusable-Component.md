@@ -39,7 +39,7 @@ Few questions for you,
     - Output Mode
     -- ![outputMode.PNG]({{site.baseurl}}/images/outputMode.PNG)
 
-Unmanaged Package Link: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
+Unmanaged Package Link (Free, free, free!): [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
 
 Demo:
 ![fieldsetFormLC.gif]({{site.baseurl}}/images/fieldsetFormLC.gif)
