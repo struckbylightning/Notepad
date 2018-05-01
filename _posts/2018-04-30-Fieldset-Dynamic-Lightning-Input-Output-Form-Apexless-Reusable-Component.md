@@ -1,9 +1,7 @@
 ---
 layout: post
 published: true
-title: >-
-  Reusable, Apexless, Fieldset-driven, Configurable Lightning input/output form
-  component.
+title: 'Reusable, Configurable Lightning input/output form component.'
 mathjax: false
 featured: true
 comments: true
@@ -15,7 +13,7 @@ description: >-
   component.
 categories:
   - LightningComponent
-tags: 'LightningComponent,reusable component,AdminsFavorite'
+tags: 'LightningComponent, Freebies'
 ---
 Few questions for you,
 
