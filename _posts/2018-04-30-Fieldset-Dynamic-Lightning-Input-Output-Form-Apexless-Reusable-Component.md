@@ -33,14 +33,14 @@ Few questions for you,
    - Configure the components attributes(object, title, icon, mode(Input/Output) ) 
    - Filter conditions when the component need to be shown.
    ![appbuilder config.PNG]({{site.baseurl}}/images/appbuilder%20config.PNG)
-   
+   <br/>
    
 3. And here\`s how it looks,
 	- Input Mode
     -- ![inputMode.PNG]({{site.baseurl}}/images/inputMode.PNG)
     - Output Mode
     -- ![outputMode.PNG]({{site.baseurl}}/images/outputMode.PNG)
-
+<br/>
 **Unmanaged Package Link (free, free, free!):** [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
 
 **Demo:**
