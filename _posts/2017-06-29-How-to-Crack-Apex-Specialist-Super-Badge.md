@@ -1,5 +1,10 @@
 ---
-published: true
+layout: post
+published: false
+mathjax: false
+featured: false
+comments: false
+title: An Awesome Headline!
 ---
 All the code you need to crack below prequiste Modules and Apex Specialist Superbadge(stepping stone to PD2) can be found at my repo here <https://github.com/struckbylightning/JourneyToBecomingApexSpecialist/tree/master/>. 
 
