@@ -11,7 +11,7 @@ categories:
   - apex
 tags: Apex Freebies Rollup Lookup
 ---
-## Declarative Metadata base Rollup Summaries
+## Declarative Metadata based Rollup Summaries
 
 This code leverages an excellent open source library by [Abhinav Gupta](https://twitter.com/abhinavguptas) and is a Metadata variant of [Andrew Fawcett\`s](https://twitter.com/andyinthecloud) [DLRS](https://github.com/afawcett/declarative-lookup-rollup-summaries) 
 
