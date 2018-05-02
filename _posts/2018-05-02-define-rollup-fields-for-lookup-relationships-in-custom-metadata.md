@@ -22,12 +22,13 @@ As always first thing first, here\`s the link to Unmanaged Package - https://log
 Here are the steps to follow after you have installed 
 
 1. Define Rollup Object Mapping
-
+![Rollup Object Mappings Salesforce.png]({{site.baseurl}}/images/Rollup%20Object%20Mappings%20Salesforce.png)
 
 2. Define Rollup Field Mapping
+![Rollup Field Mappings.png]({{site.baseurl}}/images/Rollup%20Field%20Mappings.png)
 
-
-3. Create trigger on the child objects whose field needs to be aggregated, refer to below sample trigger (replace Account with Sobject\`s api name onto which you are creating trigger)
+3. Create trigger on the child objects whose field needs to be aggregated using below template code, 
+  refer to below sample trigger (replace Account with Sobject\`s api name onto which you are creating trigger)
 
 ```javascript
 trigger AccountTrigger on Account (after insert, after update, after delete, after undelete) {
