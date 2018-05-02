@@ -24,7 +24,7 @@ Problem that we are solving,
 
 As always first thing first, here\`s the link to Unmanaged Package - https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051NoL
 
-Here are the steps to follow after you have installed 
+Here are the steps to follow after you have installed the package,
 
 1. Define Rollup Object Mapping
 ![Rollup Object Mappings.png]({{site.baseurl}}/images/Rollup%20Object%20Mappings.png)
