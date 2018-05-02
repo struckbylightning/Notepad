@@ -22,7 +22,7 @@ As always first thing first, here\`s the link to Unmanaged Package - https://log
 Here are the steps to follow after you have installed 
 
 1. Define Rollup Object Mapping
-![Rollup Object Mappings Salesforce.png]({{site.baseurl}}/images/Rollup%20Object%20Mappings%20Salesforce.png)
+![Rollup Object Mappings.png]({{site.baseurl}}/images/Rollup%20Object%20Mappings.png)
 
 2. Define Rollup Field Mapping
 ![Rollup Field Mappings.png]({{site.baseurl}}/images/Rollup%20Field%20Mappings.png)
