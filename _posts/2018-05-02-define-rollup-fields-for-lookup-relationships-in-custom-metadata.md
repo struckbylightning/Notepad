@@ -6,7 +6,7 @@ featured: false
 comments: false
 title: Define Rollup Fields for Lookup Relationships in Custom Metadata
 ---
-## Declarative Metadata base Rollup Summaries,
+## Declarative Metadata base Rollup Summaries
 
 This code leverages an excellent open source library by [Abhinav Gupta](https://twitter.com/abhinavguptas) and is a Metadata variant of [Andrew Fawcett\`s](https://twitter.com/andyinthecloud) [DLRS](https://github.com/afawcett/declarative-lookup-rollup-summaries) 
 
