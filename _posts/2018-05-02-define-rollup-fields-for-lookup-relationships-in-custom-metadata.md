@@ -29,7 +29,7 @@ Here are the steps to follow after you have installed
 
 3. Create trigger on the child objects whose field needs to be aggregated, refer to below sample trigger (replace Account with Sobject\`s api name onto which you are creating trigger)
 
-```java
+```javascript
 trigger AccountTrigger on Account (after insert, after update, after delete, after undelete) {
     Account[] objects = null;  
     if(Trigger.isInsert){
