@@ -15,17 +15,19 @@ Problem that we are solving,
 - 25 rollup summary fields allowed per object on master detail relationships
 - Rollup child sobject records part of a lookup relationship. Native rollup summary fields are not available on LOOKUP relationships.
 - Deploying the metadata configs with ease without use of data loader.
+- Multilevel rollups, child field needs to be rolled up on parent, parent\`s field storing rollup inturn needs to be rolled up onto GrandParent
 
 As always first thing first, here\`s the link to Unmanaged Package - https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051NoL
 
 Here are the steps to follow after you have installed 
 
-1. Define 
-
-2. Define
+1. Define Rollup Object Mapping
 
 
-3. Create trigger on the child objects whose field needs to be aggregated, refer to below sample 
+2. Define Rollup Field Mapping
+
+
+3. Create trigger on the child objects whose field needs to be aggregated, refer to below sample trigger (replace Account with Sobject\`s api name onto which you are creating trigger)
 
 ```java
 trigger AccountTrigger on Account (after insert, after update, after delete, after undelete) {
@@ -45,5 +47,3 @@ trigger AccountTrigger on Account (after insert, after update, after delete, aft
     RollupServices.doRollup(objects, 'Account');
 }
 ```
-
-
