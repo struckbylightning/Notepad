@@ -2,9 +2,14 @@
 layout: post
 published: true
 mathjax: false
-featured: false
-comments: false
+featured: true
+comments: true
 title: Define Rollup Fields for Lookup Relationships in Custom Metadata
+description: Define Rollup Fields for Lookup Relationships in Custom Metadata
+headline: Define Rollup Fields for Lookup Relationships in Custom Metadata
+categories:
+  - apex
+tags: 'Apex, Freebies, Rollups, Lookup'
 ---
 ## Declarative Metadata base Rollup Summaries
 
