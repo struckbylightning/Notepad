@@ -27,9 +27,9 @@ Here are the steps to follow after you have installed
 2. Define Rollup Field Mapping
 ![Rollup Field Mappings.png]({{site.baseurl}}/images/Rollup%20Field%20Mappings.png)
 
-3. Create trigger on the child objects whose field needs to be aggregated using below template code, 
-  refer to below sample trigger (replace Account with Sobject\`s api name onto which you are creating trigger)
-
+3. Create trigger on all the child objects whose field needs to be aggregated using below template code,
+ -To support metadata above we will need triggers on all distinct Child objects i.e Account, User & Inventory_Projection__c
+  -For above Rollup Object Mapping 'Account to Parent Accounts' where child object is Account, here\`s how trigger on Account object should look like, 
 ```javascript
 trigger AccountTrigger on Account (after insert, after update, after delete, after undelete) {
     Account[] objects = null;  
@@ -48,3 +48,8 @@ trigger AccountTrigger on Account (after insert, after update, after delete, aft
     RollupServices.doRollup(objects, 'Account');
 }
 ```
+-Similarly go ahead and create triggers on the other child objects by replacing Account with Sobject\`s api name onto which you are creating trigger.
+
+Woof you are now all set to leverage power of mighty rollups without being restricted.
+
+Feel free to comment below if any queries.
