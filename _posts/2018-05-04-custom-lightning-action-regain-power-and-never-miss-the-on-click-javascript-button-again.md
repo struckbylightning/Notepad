@@ -15,9 +15,9 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 
 #### Needing to do following currently hurts as there\`s no straight forward to perform the below listed seemingly simple task
 
--htesf
 - Button with simple 'Are you sure?' confirm box.
 - Button which does conditional redirection.
 - Button that simply does a callout to external system (no UI required!)
 - Button which opens up a prefilled form.
 - Button which just calls an Apex method to do the needfull.
+- Button that can leverage the power of OOB [Events that are handled in the Salesforce mobile app and Lightning Experience](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/events_one.htm) 
