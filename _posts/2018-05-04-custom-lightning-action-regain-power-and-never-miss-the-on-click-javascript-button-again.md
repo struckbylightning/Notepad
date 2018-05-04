@@ -23,3 +23,7 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 - Button that can leverage the power of OOB [events that are handled in the Salesforce mobile app and Lightning Experience](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/events_one.htm) 
 - Button that can redirect to another Lightning Component or open up the component inside a modal.
 
+Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, which allows you to drag and drop it onto any record detail page and then configure the following design parameters to suit your need.
+
+
+
