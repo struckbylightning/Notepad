@@ -20,4 +20,6 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 - Button that simply does API callouts to external system (no UI required!)
 - Button which opens up a prefilled form.
 - Button which just calls an Apex method to do the needfull.
-- Button that can leverage the power of OOB [Events that are handled in the Salesforce mobile app and Lightning Experience](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/events_one.htm) 
+- Button that can leverage the power of OOB [events that are handled in the Salesforce mobile app and Lightning Experience](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/events_one.htm) 
+- Button that can redirect to another Lightning Component or open up the component inside a modal.
+
