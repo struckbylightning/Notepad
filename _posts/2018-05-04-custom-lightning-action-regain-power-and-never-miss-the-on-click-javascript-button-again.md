@@ -16,6 +16,7 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 #### Needing to do following currently hurts as there\`s no straight forward to perform the below listed seemingly simple tasks,
 
 - Button with simple 'Are you sure?' confirm box.
+- Button with conditional 'Are you sure?' confirm box.
 - Button which does conditional redirection.
 - Button that simply does API callouts to external system (no UI required!)
 - Button which opens up a prefilled form.
@@ -25,5 +26,20 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 
 Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, which allows you to drag and drop it onto any record detail page and then configure the following design parameters to suit your need.
 
+####Diclaimer - Before I begin explainig how to utilize this comp, please be aware that this is going to be a bit long post, given that component does a lot (I should have simply done a video but still a bit too lazy for that)
 
+-- Design Attibute Table
+
+-- Confirm box always example
+-- Conditional Confirm box example
+-- Redirect & Launch to Component
+-- Fire event example
+-- 
+
+
+- This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
+-- loadingSpinnerComp - Simple component to show a centered spinner on basis of a boolean attribute
+-- genericUtilities.cmp, GenericDataSaverApxCtrl.apxc, APXFieldValidationError
+--- To simplify performing DMLs from LC and also support a better error handling mechanism which helps with finite details around failing validation rules in a consumable way 
+-- LightningServerResponse - Any call to Apex will always return LightningServerResponse (in component I build, Why?- probably will write another post explaining all these antics)
 
