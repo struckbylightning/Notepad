@@ -29,6 +29,11 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 ####Diclaimer - Before I begin explainig how to utilize this comp, please be aware that this is going to be a bit long post, given that component does a lot (I should have simply done a video but still a bit too lazy for that)
 
 -- Design Attibute Table
+|    Design   Attribute Label | Attribute Type | Options                                                  | Description(Although   labels already are self explanatory but..)                                                                | Required?    |
+|-----------------------------|----------------|----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------|
+| Button Label                | String         |                                                          | The text to be displayed inside the button.                                                                                      | Yes          |
+| Show Confirm Box?           | Picklist       | Always, Conditional, Never,   ValidatePriorToRedirecting | Always - 'Confirm box will be   shown always'     Conditional - 'Apex method defined in '      Never, ValidatePriorToRedirecting | Yes          |
+|                             |                |                                                          |                                                                                                                                  |              |
 
 -- Confirm box always example
 -- Conditional Confirm box example
