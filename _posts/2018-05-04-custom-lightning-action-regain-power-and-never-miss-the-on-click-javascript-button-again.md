@@ -26,9 +26,9 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 
 Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, which allows you to drag and drop it onto any record detail page and then configure the following design parameters to suit your need.
 
-####Diclaimer - Before I begin explainig how to utilize this comp, please be aware that this is going to be a bit long post, given that component does a lot (I should have simply done a video but still a bit too lazy for that)
+#### Diclaimer - Before I begin explainig how to utilize this comp, please be aware that this is going to be a bit long post, given that component does a lot (I should have simply done a video but still a bit too lazy for that)
 
--- Design Attibute Table
+1. Once you drag and drop below are the attributes that needs to be configured,
 
 |    Design   Attribute Label                                                                       | Attribute Type | Options                                                         | Additional   Description                                                                                                         | Required?    |
 |---------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------|
