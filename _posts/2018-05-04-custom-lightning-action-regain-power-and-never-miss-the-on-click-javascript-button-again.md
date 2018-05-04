@@ -30,6 +30,12 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 
 -- Design Attibute Table
 
+|    Design   Attribute Label | Attribute Type | Options                                                  | Description(Although   labels already are self explanatory but..)                                                                | Required?    |
+|-----------------------------|----------------|----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------|
+| Button Label                | String         |                                                          | The text to be displayed inside the button.                                                                                      | Yes          |
+| Show Confirm Box?           | Picklist       | Always, Conditional, Never,   ValidatePriorToRedirecting | Always - 'Confirm box will be   shown always'     Conditional - 'Apex method defined in '      Never, ValidatePriorToRedirecting | Yes          |
+|                             |                |                                                          |                                                                                                                                  |              |
+
 -- Confirm box always example
 -- Conditional Confirm box example
 -- Redirect & Launch to Component
