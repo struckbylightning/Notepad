@@ -43,11 +43,11 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 | Component   Load Type                                                                             | Picklist       | Modal     Redirect                                              |                                                                                                                                  |              |
 | Record   Id Holder Attribute                                                                      | String         |                                                                 |                                                                                                                                  |              |
 
--- Confirm box always example
--- Conditional Confirm box example
--- Redirect & Launch to Component
--- Fire event example
--- 
+- Confirm box always example
+- Conditional Confirm box example
+- Redirect & Launch to Component
+- Fire event example
+-
 
 
 ## This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
