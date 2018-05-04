@@ -14,6 +14,7 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 -[with Lightning Actions( because they are Smart, Fast, and Mobile](https://developer.salesforce.com/blogs/developer-relations/2016/10/your-new-life-with-lightning-actions-smart-fast-and-mobile.html), we all continue to miss our mighty old friends(On-Click Javascript buttons) when we run into situations highlted below when despite of all suggested we are still unsure of the way out,
 
 ##Needing to do following hurts
+
 -Button with simple 'Are you sure?' confirm box.
 -Button which does conditional redirection.
 -Button that simply does a callout to external system (no UI required!)
