@@ -50,9 +50,9 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 -- 
 
 
-- This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
--- loadingSpinnerComp - Simple component to show a centered spinner on basis of a boolean attribute
--- genericUtilities.cmp, GenericDataSaverApxCtrl.apxc, APXFieldValidationError
---- To simplify performing DMLs from LC and also support a better error handling mechanism which helps with finite details around failing validation rules in a consumable way 
--- LightningServerResponse - Any call to Apex will always return LightningServerResponse (in component I build, Why?- probably will write another post explaining all these antics)
+## This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
+- loadingSpinnerComp - Simple component to show a centered spinner on basis of a boolean attribute
+- genericUtilities.cmp, GenericDataSaverApxCtrl.apxc, APXFieldValidationError
+- To simplify performing DMLs from LC and also support a better error handling mechanism which helps with finite details around failing validation rules in a consumable way 
+- LightningServerResponse - Any call to Apex will always return LightningServerResponse (in component I build, Why?- probably will write another post explaining all these antics)
 
