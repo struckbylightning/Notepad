@@ -24,11 +24,31 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 - Button that can leverage the power of OOB [events that are handled in the Salesforce mobile app and Lightning Experience](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/events_one.htm) 
 - Button that can redirect to another Lightning Component or open up the component inside a modal.
 
-Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, which allows you to drag and drop it onto any record detail page and then configure the following design parameters to suit your need.
+Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, which allows you to drag and drop it onto any record detail page and then configure the design parameters(table) to suit your need.
 
-#### Diclaimer - Before I begin explainig how to utilize this comp, please be aware that this is going to be a bit long post, given that component does a lot (I should have simply done a video but still a bit too lazy for that)
+### Let\`s straight away jump and see the component in action, with help of below scenarios
 
-1. Once you drag and drop below are the attributes that needs to be configured,
+1. Always Confirm box + redirect to component example
+- Let\`s say on click of 'Create Sales Order' button on Account Record we want always show a confirm box with 'Are you Sure you want to really place new sales order?' message with Yes/No buttons,
+   -- If user clicks Yes then redirect to 'newSalesOrderWizard.cmp'.
+   -- If clicks No then close the confirm modal.
+2. Conditional Confirm box + call Apex example
+- Now Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly show a Confirm Box on basis of the results,
+-- If Account.Credit_Status__c == 'Red' we want to show a message 'This account has been marked Red are you sure you want to create a new Sales order?'.
+   --- If user clicks Yes then call 'createSalesOrder' apex method.
+   --- If clicks No then close the confirm modal.
+-- Else call 'createSalesOrder' apex method
+3. Validate Prior Redirecting + Fire Event example
+- Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly stop user from proceeding on basis of the result, 
+-- If Account.Credit_Status__c == 'Red' we want to show a message 'You cannot place new Sales order as Finance has marked this account Red, Check with Finance team for more info'. and block the user from proceding.
+-- Else Fire force:createRecord event
+
+
+## This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
+- loadingSpinnerComp - Simple component to show a centered spinner on basis of a boolean attribute
+- genericUtilities.cmp, GenericDataSaverApxCtrl.apxc, APXFieldValidationError
+- To simplify performing DMLs from LC and also support a better error handling mechanism which helps with finite details around failing validation rules in a consumable way 
+- LightningServerResponse - Any call to Apex will always return LightningServerResponse (in component I build, Why?- probably will write another post explaining all these antics)
 
 |    Design   Attribute Label                                                                       | Attribute Type | Options                                                         | Additional   Description                                                                                                         | Required?    |
 |---------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------|
@@ -42,25 +62,3 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 | If   Component, Enter the Name                                                                    | String         |                                                                 |                                                                                                                                  |              |
 | Component   Load Type                                                                             | Picklist       | Modal     Redirect                                              |                                                                                                                                  |              |
 | Record   Id Holder Attribute                                                                      | String         |                                                                 |                                                                                                                                  |              |
-
-1. Always Confirm box example + redirect to component 
-- Let\`s say on click of 'Create Sales Order' button on Account Record we want always show a confirm box with 'Are you Sure you want to really place new sales order?' message with Yes/No buttons,
-   -- If user clicks Yes then redirect to 'newSalesOrderWizard.cmp'.
-   -- If clicks No then close the confirm modal.
-2. Conditional Confirm box example + call Apex
-- Now Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly show a Confirm Box on basis of the results,
--- If Account.Credit_Status__c == 'Red' we want to show a message 'This account has been marked Red are you sure you want to create a new Sales order?'.
-   --- If user clicks Yes then call 'createSalesOrder' apex method.
-   --- If clicks No then close the confirm modal.
--- Else call 'createSalesOrder' apex method
-3. Validate Prior Redirecting + Fire Event
-- Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly stop user from proceeding on basis of the result, 
--- If Account.Credit_Status__c == 'Red' we want to show a message 'You cannot place new Sales order as Finance has marked this account Red, Check with Finance team for more info'. and block the user from proceding.
--- Else Fire force:createRecord event
-
-
-## This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
-- loadingSpinnerComp - Simple component to show a centered spinner on basis of a boolean attribute
-- genericUtilities.cmp, GenericDataSaverApxCtrl.apxc, APXFieldValidationError
-- To simplify performing DMLs from LC and also support a better error handling mechanism which helps with finite details around failing validation rules in a consumable way 
-- LightningServerResponse - Any call to Apex will always return LightningServerResponse (in component I build, Why?- probably will write another post explaining all these antics)
