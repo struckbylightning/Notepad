@@ -43,8 +43,8 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 | Component   Load Type                                                                             | Picklist       | Modal     Redirect                                              |                                                                                                                                  |              |
 | Record   Id Holder Attribute                                                                      | String         |                                                                 |                                                                                                                                  |              |
 
-1. Confirm box always example
-Let\`s say on click of 'Create Sales Order' button on Account Record we want always show a confirm box with 'Are you Sure you want to really place new sales order?' message with Yes/No buttons,
+1. Always Confirm box example
+- Let\`s say on click of 'Create Sales Order' button on Account Record we want always show a confirm box with 'Are you Sure you want to really place new sales order?' message with Yes/No buttons,
    -- If user clicks Yes then redirect to 'newSalesOrderWizard.cmp'.
    -- If clicks No then close the confirm modal.
 2. Conditional Confirm box example
