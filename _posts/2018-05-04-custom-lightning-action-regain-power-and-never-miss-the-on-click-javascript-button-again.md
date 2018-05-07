@@ -43,24 +43,20 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 | Component   Load Type                                                                             | Picklist       | Modal     Redirect                                              |                                                                                                                                  |              |
 | Record   Id Holder Attribute                                                                      | String         |                                                                 |                                                                                                                                  |              |
 
-1. Always Confirm box example
+1. Always Confirm box example + redirect to component 
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want always show a confirm box with 'Are you Sure you want to really place new sales order?' message with Yes/No buttons,
    -- If user clicks Yes then redirect to 'newSalesOrderWizard.cmp'.
    -- If clicks No then close the confirm modal.
-2. Conditional Confirm box example
-Now Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly show a Confirm Box on basis of the results,
-E.g:
-If Account.Credit_Status__c == 'Red' we want to show a message 'This account has been marked Red are you sure   you want to create a new Sales order?'.
-   -- If user clicks Yes then redirect to 'newSalesOrderWizard.cmp'.
-   -- If clicks No then close the confirm modal.
-Else redirect to 'newSalesOrderWizard.cmp'
-3. Validate Prior Redirecting
-Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly stop user from proceeding on basis of the result 
-If Account.Credit_Status__c == 'Red' we want to show a message 'You cannot place new Sales order as Finance has marked this account Red, Check with Finance team for more info'. and block the user from proceding.
-Else Redirect to 'newSalesOrderWizard.cmp'
-- Redirect & Launch to Component
-- Fire event example
--
+2. Conditional Confirm box example + call Apex
+- Now Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly show a Confirm Box on basis of the results,
+-- If Account.Credit_Status__c == 'Red' we want to show a message 'This account has been marked Red are you sure you want to create a new Sales order?'.
+   --- If user clicks Yes then call 'createSalesOrder' apex method.
+   --- If clicks No then close the confirm modal.
+-- Else call 'createSalesOrder' apex method
+3. Validate Prior Redirecting + Fire Event
+- Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly stop user from proceeding on basis of the result, 
+-- If Account.Credit_Status__c == 'Red' we want to show a message 'You cannot place new Sales order as Finance has marked this account Red, Check with Finance team for more info'. and block the user from proceding.
+-- Else Fire force:createRecord event
 
 
 ## This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
