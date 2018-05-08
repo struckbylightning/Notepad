@@ -8,6 +8,16 @@ title: >-
   Custom Lightning Action, Regain Power and never miss the On-Click JavaScript
   button again!!!
 modified: '2018-05-08'
+description: >-
+  Custom Lightning Action, Regain Power and never miss the On-Click JavaScript
+  button again!!!
+headline: >-
+  Custom Lightning Action, Regain Power and never miss the On-Click JavaScript
+  button again!!!
+categories:
+  - LightningComponent
+  - Freebies
+tags: LightningComponent Freebies LightningAction Appbuilder
 ---
 ## Cheers to the Future - Custom Lightning Action
 
