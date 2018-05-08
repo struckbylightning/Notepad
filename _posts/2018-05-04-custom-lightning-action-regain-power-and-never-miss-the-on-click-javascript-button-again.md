@@ -57,7 +57,7 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
   * If Account.Credit_Status__c == 'Red' we want to show a message 'You cannot place new Sales order as Finance has marked this account Red, Check with Finance team for more info'. and block the user from proceding.
   * Else Fire force:createRecord event
 
-![validateEvent.gif]({{site.baseurl}}/images/validateEvent.gif)
+![validateEvent.gif]({{site.baseurl}}/images/validateEvent.gif){:height="80%" width="80%"}  
 
 ## This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
 - loadingSpinnerComp - Simple component to show a centered spinner on basis of a boolean attribute
