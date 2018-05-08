@@ -28,8 +28,6 @@ What if I tell you can do all mentioned above with all pointNclicks and very min
 
 All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail page and configure few design parameters(ref table at end for details) and woof you are all set :)
 
-
-
 ### Now let\`s straight away jump and see the component in action, with help of below scenarios,
 
 **1. Always Confirm box + redirect to component example**
