@@ -36,8 +36,6 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
   * If clicks No then close the confirm modal.
 
 **1a. Redirect to Component on confirm**
-<img src="/images/ConfirmBoxAlwaysCmpRedirect.gif" alt="drawing" style="width: 200px;"/>
-
 ![ConfirmBoxAlwaysCmpRedirect.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpRedirect.gif){:height="36px" width="36px"}.
 **1b. Open Component in a Modal on confirm**
 ![ConfirmBoxAlwaysCmpModal.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpModal.gif)
