@@ -49,7 +49,7 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
 
 ![ConditionalConfirmApexCall.gif]({{site.baseurl}}/images/ConditionalConfirmApexCall.gif)
 
-3. Validate Prior Redirecting + Fire Event example
+**3. Validate Prior Redirecting + Fire Event example**
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly stop user from proceeding on basis of the result, 
 -- If Account.Credit_Status__c == 'Red' we want to show a message 'You cannot place new Sales order as Finance has marked this account Red, Check with Finance team for more info'. and block the user from proceding.
 -- Else Fire force:createRecord event
