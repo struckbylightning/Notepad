@@ -32,13 +32,13 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
 
 1. Always Confirm box + redirect to component example
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want always show a confirm box with 'Are you Sure?' message with Yes/No buttons, and then,
--- If user clicks Yes, redirect them to 'newSalesOrderWizard.cmp' or open the component in modal.
+-- If user clicks Yes, redirect them to 'newSalesOrderWizard.cmp'(1a) or open the component in modal(1b).
 -- If clicks No then close the confirm modal.
 
 1a. Redirect to Component on confirm
-[]
+![ConfirmBoxAlwaysCmpRedirect.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpRedirect.gif)
 1b. Open Component in a Modal on confirm
-[]
+![ConfirmBoxAlwaysCmpModal.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpModal.gif)
 
 2. Conditional Confirm box + call Apex example
 - Now Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly show a Confirm Box on basis of the results,
@@ -47,14 +47,14 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
 --- If clicks No then close the confirm modal.
 -- Else call 'createSalesOrder' apex method
 
-[]
+![ConditionalConfirmApexCall.gif]({{site.baseurl}}/images/ConditionalConfirmApexCall.gif)
 
 3. Validate Prior Redirecting + Fire Event example
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly stop user from proceeding on basis of the result, 
 -- If Account.Credit_Status__c == 'Red' we want to show a message 'You cannot place new Sales order as Finance has marked this account Red, Check with Finance team for more info'. and block the user from proceding.
 -- Else Fire force:createRecord event
 
-[]
+![validateEvent.gif]({{site.baseurl}}/images/validateEvent.gif)
 
 ## This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
 - loadingSpinnerComp - Simple component to show a centered spinner on basis of a boolean attribute
