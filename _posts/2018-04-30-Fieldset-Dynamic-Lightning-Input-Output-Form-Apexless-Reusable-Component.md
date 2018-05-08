@@ -42,7 +42,7 @@ Few questions for you,
 **Unmanaged Package Link (free, free, free!):** [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
 
 **Demo:**
-![fieldsetFormLC.gif]({{site.baseurl}}/images/fieldsetFormLC.gif)
+![fieldsetFormLC.gif]({{site.baseurl}}/images/fieldsetFormLC.gif){:height="80%" width="80%"}  
 
 **Code Snippets:**
 
