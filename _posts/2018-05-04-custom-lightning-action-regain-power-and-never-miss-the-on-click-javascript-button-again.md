@@ -30,17 +30,17 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
 
 ### Let\`s straight away jump and see the component in action, with help of below scenarios,
 
-1. Always Confirm box + redirect to component example
+**1. Always Confirm box + redirect to component example**
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want always show a confirm box with 'Are you Sure?' message with Yes/No buttons, and then,
 -- If user clicks Yes, redirect them to 'newSalesOrderWizard.cmp'(1a) or open the component in modal(1b).
 -- If clicks No then close the confirm modal.
 
-1a. Redirect to Component on confirm
+**1a. Redirect to Component on confirm**
 ![ConfirmBoxAlwaysCmpRedirect.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpRedirect.gif)
-1b. Open Component in a Modal on confirm
+**1b. Open Component in a Modal on confirm**
 ![ConfirmBoxAlwaysCmpModal.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpModal.gif)
 
-2. Conditional Confirm box + call Apex example
+**2. Conditional Confirm box + call Apex example**
 - Now Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly show a Confirm Box on basis of the results,
 -- If Account.Credit_Status__c == 'Red' we want to show a message 'This account has been marked Red are you sure you want to create a new Sales order?', and then,
 --- If user clicks Yes then call 'createSalesOrder' apex method.
