@@ -35,7 +35,8 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
   * If user clicks Yes, redirect them to 'newSalesOrderWizard.cmp'(1a) or open the component in modal(1b).
   * If clicks No then close the confirm modal.
 
-**1a. Redirect to Component on confirm**
+**1a. Redirect to Component on confirm**  
+
 ![ConfirmBoxAlwaysCmpRedirect.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpRedirect.gif){:height="50%" width="50%"}.  
 
 **1b. Open Component in a Modal on confirm**
