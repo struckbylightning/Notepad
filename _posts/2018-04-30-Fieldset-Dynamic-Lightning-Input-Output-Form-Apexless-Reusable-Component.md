@@ -11,9 +11,10 @@ headline: >-
 description: >-
   Reusable, Apexless, Fieldset-driven, Configurable Lightning input/output form
   component.
+tags: LightningComponent Freebies FieldSet Appbuilder
 categories:
   - LightningComponent
-tags: LightningComponent Freebies FieldSet Appbuilder
+  - Freebies
 ---
 Few questions for you,
 
