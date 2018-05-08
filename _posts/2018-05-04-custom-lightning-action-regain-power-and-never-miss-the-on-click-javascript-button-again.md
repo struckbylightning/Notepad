@@ -28,7 +28,9 @@ What if I tell you can do all mentioned above with all pointNclicks and very min
 
 All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail page and configure few design parameters(ref table at end for details) and woof you are all set :)
 
-### Let\`s straight away jump and see the component in action, with help of below scenarios,
+Here\`s the link to component code uploaded on github - https://github.com/struckbylightning/customLightningAction/tree/master/CustomLightningAction 
+
+### Now let\`s straight away jump and see the component in action, with help of below scenarios,
 
 **1. Always Confirm box + redirect to component example**
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want always show a confirm box with 'Are you Sure?' message with Yes/No buttons, and then,
