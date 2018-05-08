@@ -24,7 +24,9 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 - Button that can leverage the power of OOB [events that are handled in the Salesforce mobile app and Lightning Experience](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/events_one.htm) 
 - Button that can redirect to another Lightning Component or open up the component inside a modal.
 
-Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, which allows you to do all mentioned above and more all with pointNclicks and very minimal coding, by dragging and dropping customLightningAction.cmp onto any record detail page and then configuring the design parameters(ref table at the end) to suit your needs.
+What if I tell you can do all mentioned above with all pointNclicks and very minimal code, Sounds Magical Right!!
+
+All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail page and configure few design parameters(ref table at end for details) and woof you are all set :)
 
 ### Let\`s straight away jump and see the component in action, with help of below scenarios,
 
@@ -34,9 +36,9 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 -- If clicks No then close the confirm modal.
 
 1a. Redirect to Component on confirm
-
+[]
 1b. Open Component in a Modal on confirm
-
+[]
 
 2. Conditional Confirm box + call Apex example
 - Now Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly show a Confirm Box on basis of the results,
@@ -44,11 +46,15 @@ Yes I know it hurts and that\`s why 'customLightningAction.cmp' is created, whic
 --- If user clicks Yes then call 'createSalesOrder' apex method.
 --- If clicks No then close the confirm modal.
 -- Else call 'createSalesOrder' apex method
+
+[]
+
 3. Validate Prior Redirecting + Fire Event example
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly stop user from proceeding on basis of the result, 
 -- If Account.Credit_Status__c == 'Red' we want to show a message 'You cannot place new Sales order as Finance has marked this account Red, Check with Finance team for more info'. and block the user from proceding.
 -- Else Fire force:createRecord event
 
+[]
 
 ## This package comes with other reusable freebies which are ingrained into this component but can be easily decoupled and utilized.
 - loadingSpinnerComp - Simple component to show a centered spinner on basis of a boolean attribute
