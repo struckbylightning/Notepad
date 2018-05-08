@@ -37,7 +37,7 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
 
 **1a. Redirect to Component on confirm**  
 
-![ConfirmBoxAlwaysCmpRedirect.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpRedirect.gif){:height="50%" width="50%"}.  
+![ConfirmBoxAlwaysCmpRedirect.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpRedirect.gif){:height="80%" width="80%"}.  
 
 **1b. Open Component in a Modal on confirm**
 ![ConfirmBoxAlwaysCmpModal.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpModal.gif)
