@@ -7,6 +7,7 @@ comments: false
 title: >-
   Custom Lightning Action, Regain Power and never miss the On-Click JavaScript
   button again!!!
+modified: '2018-05-08'
 ---
 ## Cheers to the Future - Custom Lightning Action
 
