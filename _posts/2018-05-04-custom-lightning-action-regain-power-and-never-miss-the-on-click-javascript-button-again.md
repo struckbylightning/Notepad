@@ -41,7 +41,7 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
 
 **1b. Open Component in a Modal on confirm**  
 
-![ConfirmBoxAlwaysCmpModal.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpModal.gif)
+![ConfirmBoxAlwaysCmpModal.gif]({{site.baseurl}}/images/ConfirmBoxAlwaysCmpModal.gif){:height="80%" width="80%"}  
 
 **2. Conditional Confirm box + call Apex example**
 - Now Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly show a Confirm Box on basis of the results,
@@ -50,7 +50,7 @@ All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail p
       * If clicks No then close the confirm modal.
   * Else call 'createSalesOrder' apex method
 
-![ConditionalConfirmApexCall.gif]({{site.baseurl}}/images/ConditionalConfirmApexCall.gif)
+![ConditionalConfirmApexCall.gif]({{site.baseurl}}/images/ConditionalConfirmApexCall.gif){:height="80%" width="80%"}  
 
 **3. Validate Prior Redirecting + Fire Event example**
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want to first do a Credit Status check and accordingly stop user from proceeding on basis of the result, 
