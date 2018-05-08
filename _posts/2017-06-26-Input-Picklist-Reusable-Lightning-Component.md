@@ -7,9 +7,10 @@ featured: false
 comments: true
 headline: Reusable InputPicklist Lightning-Component
 description: Reusable InputPicklist Lightning-Component
+tags: 'LightningComponent Freebies FieldSet Appbuilder DynamicApex, Reusable'
 categories:
-  - Lightning components
-tags: 'lightning component, dynamic apex, Reusable code, Freebies'
+  - LightningComponent
+  - Freebies
 ---
 Do you love lightning way of componentizing things, but miss good\`ol Visualforce out of box way of handling picklist input field just by using **<apex:inputField/>**, worry no more, will show you how to create a reusable lightning component named *c:inputPicklist* to achieve the same.
 
