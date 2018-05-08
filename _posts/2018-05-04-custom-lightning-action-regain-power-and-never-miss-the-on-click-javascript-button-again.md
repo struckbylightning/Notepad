@@ -24,11 +24,11 @@ I know despite of what Salesforce says [here](https://developer.salesforce.com/b
 - Button that can leverage the power of OOB [events that are handled in the Salesforce mobile app and Lightning Experience](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/events_one.htm) 
 - Button that can redirect to another Lightning Component or open up the component inside a modal.
 
-What if I tell you can do all mentioned above with all pointNclicks and very minimal code, Sounds Magical Right!!
+What if I tell you can do all mentioned above with all pointNclicks and very minimal code, Sounds Magical Right, here we go here\`s the component code uploaded on GitHub [https://github.com/struckbylightning/customLightningAction/tree/master/CustomLightningAction](https://github.com/struckbylightning/customLightningAction/tree/master/CustomLightningAction)
 
 All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail page and configure few design parameters(ref table at end for details) and woof you are all set :)
 
-Here\`s the link to component code uploaded on github - [https://github.com/struckbylightning/customLightningAction/tree/master/CustomLightningAction](https://github.com/struckbylightning/customLightningAction/tree/master/CustomLightningAction) 
+
 
 ### Now let\`s straight away jump and see the component in action, with help of below scenarios,
 
