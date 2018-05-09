@@ -23,6 +23,7 @@ Few questions for you,
 - Want to have flexibility to add/remove/reorder the displayed fields?
 - Also need flexibility to change the title/icon of the form component?
 - Added flexibility of having the form support both output (read-only)  input(Create / Update) will not hurt?
+- [Update]Added support for inline editing in output mode
 
 ### If answer to above question is yes look no further, below component is match made in heaven, as it will let you to do the following,
 
@@ -42,7 +43,7 @@ Few questions for you,
       * Output Mode- Pencil Clicked  
       ![outputMode Edit Pencil Clicked.png]({{site.baseurl}}/images/outputMode%20Edit%20Pencil%20Clicked.png)
     
-
+**
 **Unmanaged Package Link (free, free, free!):** [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
 
 **Demo:**
