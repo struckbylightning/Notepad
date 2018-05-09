@@ -24,7 +24,7 @@ tags: LightningComponent Freebies LightningAction Appbuilder
 I know despite of what Salesforce says [here](https://developer.salesforce.com/blogs/developer-relations/2016/10/your-new-life-with-lightning-actions-smart-fast-and-mobile.html) to [Break Up with JavaScript Buttons and Embrace Lightning](https://developer.salesforce.com/blogs/developer-relations/?p=157981&preview=true) and suggests the [First Steps: to replace JavaScript Buttons](https://developer.salesforce.com/blogs/developer-relations/2016/09/take-the-first-steps-ways-you-can-replace-javascript-buttons.html)
 -[with Lightning Actions( because they are Smart, Fast, and Mobile](https://developer.salesforce.com/blogs/developer-relations/2016/10/your-new-life-with-lightning-actions-smart-fast-and-mobile.html), we all still continue to miss our mighty old friends(On-Click Javascript buttons) when we run into situations highlighted below when despite of all suggested we are still unsure of the way out,
 
-#### Needing to do following currently hurts as there\`s no straightforward to perform the below listed seemingly simple tasks,
+#### To do following currently hurts as there\`s no straightforward to perform the below listed seemingly simple tasks,
 
 - Button with simple 'Are you sure?' confirm box.
 - Button with conditional 'Are you sure?' confirm box.
@@ -39,7 +39,7 @@ What if I tell you can do all mentioned above with all pointNclicks and very min
 
 All you need to do is dragNdrop \'customLightningAction.cmp\' to record detail page and configure few design parameters(ref table at end for details) and woof you are all set :)
 
-### Now let\`s straight away jump and see the component in action, with help of below scenarios,
+### Now let\`s straight away jump to see the component in action, with help of below scenarios,
 
 **1. Always Confirm box + redirect to component example**
 - Let\`s say on click of 'Create Sales Order' button on Account Record we want to always show a confirm box with 'Are you Sure?' message with Yes/No buttons, and then,
