@@ -24,7 +24,7 @@ Problem that we are solving,
 - Multilevel rollups, child field needs to be rolled up on parent, parent\`s field storing rollup inturn needs to be rolled up onto GrandParent
 
 As always first thing first, here\`s the link to,
-**GitHub Repo** https://github.com/struckbylightning/MetadataLookupRollupSummary
+**GitHub Repo Link** https://github.com/struckbylightning/MetadataLookupRollupSummary
 **Unmanaged Package** - https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051NoL
 
 Here are the steps to follow after you have installed the package,
