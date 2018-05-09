@@ -43,7 +43,7 @@ Few questions for you,
       * Output Mode- Pencil Clicked  
       ![outputMode Edit Pencil Clicked.png]({{site.baseurl}}/images/outputMode%20Edit%20Pencil%20Clicked.png)
     
-**
+**Github Repo Link: **https://github.com/struckbylightning/FieldsetLightningCompForm 
 **Unmanaged Package Link (free, free, free!):** [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051Ca0)
 
 **Demo:**
