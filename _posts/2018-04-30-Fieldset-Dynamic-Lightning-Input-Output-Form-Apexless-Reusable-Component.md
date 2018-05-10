@@ -46,7 +46,7 @@ Few questions for you,
 *Github Repo Link:*  
 https://github.com/struckbylightning/FieldsetLightningCompForm  
 *Unmanaged Package Link (free, free, free!):* https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F0000051DNd
- [V1.1 Inline editing]
+ [V1.1 with Inline editing support]
 
 **Demo:**
 ![fieldsetFormLC.gif]({{site.baseurl}}/images/fieldsetFormLC.gif){:height="80%" width="80%"}  
