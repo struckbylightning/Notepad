@@ -2,8 +2,8 @@
 layout: post
 published: true
 mathjax: false
-featured: false
-comments: false
+featured: true
+comments: true
 title: >-
   Custom Lightning Action, Regain Power and never miss the On-Click JavaScript
   button again!!!
