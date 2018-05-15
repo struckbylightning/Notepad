@@ -27,15 +27,14 @@ title: Lightning Developement Tips & Tricks
 
 **Developement Tips**
 1. Functions can be passed as a parameter  
-  *In example below the onNext, onPrevious functions defined in shellComp are passed as parameters to the embedded comp paymentNavigationComp  
-  ---------------shellComp.cmp-------
-  
+  In example below the onNext, onPrevious functions defined in shellComp are passed as parameters to the embedded comp paymentNavigationComp  
+##shellComp.cmp  
 ```html
 <aura:component>
 	<c:paymentNavigationComp onPrevious="{!c.onPrevious}" onNext="{!c.onNext}"/>
 </aura:component>
 ```  
----ShellCompController.js---
+##ShellCompController.js
 ```js
 {
   onNext : function(component, event, helper) {
@@ -47,7 +46,7 @@ title: Lightning Developement Tips & Tricks
 }
 ```  
 
--------------------------paymentNavigationComp.cmp---------------  
+##paymentNavigationComp.cmp
 ```html
 <aura:component>
   <aura:attribute name="onPrevious" type="Aura.Action"/>
