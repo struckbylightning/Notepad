@@ -47,7 +47,7 @@ title: Lightning Developement Tips & Tricks
 }
 ```  
 
--------------------------paymentNavigationComp.cmp---------------
+-------------------------paymentNavigationComp.cmp---------------  
 ```html
 <aura:attribute name="onPrevious" type="Aura.Action"/>
 <button class="slds-button slds-button--neutral" onclick="{!v.onPrevious}">Previous</button>
