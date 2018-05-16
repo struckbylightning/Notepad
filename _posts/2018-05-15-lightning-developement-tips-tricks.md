@@ -26,8 +26,7 @@ title: Lightning Developement Tips & Tricks
 #Lightning Inspector & Community something
 
 **Developement Tips**
-Functions can be passed as a parameter  
-  In example below the onNext, onPrevious functions defined in shellComp are passed as parameters to the embedded comp paymentNavigationComp  
+Functions can be passed as a parameter, In example below the onNext, onPrevious functions defined in shellComp are passed as parameters to the embedded comp paymentNavigationComp
 
 ```html
 <!-- shellComp.cmp  -->
