@@ -35,6 +35,7 @@ title: Lightning Developement Tips & Tricks
 	<c:paymentNavigationComp onPrevious="{!c.onPrevious}" onNext="{!c.onNext}"/>
 </aura:component>
 ```
+
 ```js
 /* ShellCompController.js */
 {
@@ -46,6 +47,7 @@ title: Lightning Developement Tips & Tricks
   }
 }
 ```
+
 ```html
 <!-- paymentNavigationComp.cmp  -->
 <aura:component>
