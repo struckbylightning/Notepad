@@ -11,7 +11,7 @@ tags:
 chart: true
 published: true
 description: >-
-  I am Nikunj Doshi, an enthusiastic and passionate techno-functional, Salesforce Certified Developer with 5+ years of experience in solutioning and developing Admin friendly dynamic Salesforce solutions.
+  Enthusiastic and passionate techno-functional, Salesforce Certified Developer with 5+ years of experience in solutioning and developing Admin friendly dynamic Salesforce solutions.
 categories:
   - personal
 featured: false
