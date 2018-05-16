@@ -6,27 +6,6 @@ featured: false
 comments: false
 title: Lightning Developement Tips & Tricks
 ---
-## Handy collection of key pointers from my experience of developing lightning components from past couple of years,
-
-**Architeching Components**
-#Reusable
-#Scalable
-#Modular
-#FAST
-#Accessible
-
-#Using Helper
-#Inheritance
-#Returning from Server
-#Error Handling
-#Comps for App Builder
-
-**Debugging & Prerformance**
-#Lightining Linter
-#Lightning Inspector & Community something
-
-**Developement Tips**
-Functions can be passed as a parameter, In example below the onNext, onPrevious functions defined in shellComp are passed as parameters to the embedded comp paymentNavigationComp
 
 ```html
 <!-- shellComp.cmp  -->
