@@ -34,8 +34,7 @@ title: Lightning Developement Tips & Tricks
 <aura:component>
 	<c:paymentNavigationComp onPrevious="{!c.onPrevious}" onNext="{!c.onNext}"/>
 </aura:component>
-```  
-##
+```
 ```js
 /* ShellCompController.js */
 {
