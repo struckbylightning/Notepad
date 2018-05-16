@@ -11,7 +11,7 @@ title: Lightning Development Pro Tips
 **Architeching Components**
 1. Communication between components,
   - Using 2 way binding (Pass by Reference) with help of bound expressions {!}
-  	
+  - If building component to be added via app builder to LeX utilize OOB events handled by one.app
   - Component Event - when a component needs to communicate with components above in containment hierarchy (e.g grandParent, Parent etc.)
   - Application Event - when a component needs to communicate with components not part of containment hierarchy (eg. siblings)
   -
