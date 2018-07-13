@@ -16,6 +16,7 @@ headline: >-
 categories:
   - Freebies
 tags: LifeHack Knowledge
+imagefeature: '{{site.baseurl}}/images/plural%20sight%20salesforce%20play%20by%20play.png'
 ---
 ## Smartest way to gain knowledge is to learn via experience (not just yours, but also of others).
 
