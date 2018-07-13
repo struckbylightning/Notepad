@@ -37,3 +37,4 @@ pluralsight-free
 
 Do share your smartcuts to knowledge in comments section below.
 
+![Pluralsight salesforce play by play.png]({{site.baseurl}}/images/plural%20sight%20salesforce%20play%20by%20play.png)
