@@ -26,3 +26,4 @@ Incase you have doubts on how good they are try 1month free pluralsight subscrip
 pluralsight-free
 6. Once activated, you will be taken to the pluralsight website. Sign up using your email and you will get six months of free subscription.
 
+Do share your smartcuts to knowledge in comments section below.
