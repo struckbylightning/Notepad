@@ -7,6 +7,15 @@ comments: false
 title: >-
   Smart-cut to Salesforce Knowledge - Plural sight Play by Play series + Way to
   get 3months free pluralsight subscription
+description: >-
+  Smart-cut to Salesforce Knowledge - Plural sight Play by Play series + Way to
+  get 3months free pluralsight subscription
+headline: >-
+  Smart-cut to Salesforce Knowledge - Plural sight Play by Play series + Way to
+  get 3months free pluralsight subscription
+categories:
+  - Freebies
+tags: 'LifeHack, Knowledge'
 ---
 ## Smart-cut to Salesforce Knowledge
 
@@ -27,3 +36,4 @@ pluralsight-free
 6. Once activated, you will be taken to the pluralsight website. Sign up using your email and you will get six months of free subscription.
 
 Do share your smartcuts to knowledge in comments section below.
+
