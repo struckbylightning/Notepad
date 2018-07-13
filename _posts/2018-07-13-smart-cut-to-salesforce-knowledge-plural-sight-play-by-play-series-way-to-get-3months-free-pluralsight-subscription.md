@@ -15,7 +15,7 @@ headline: >-
   get 3months free pluralsight subscription
 categories:
   - Freebies
-tags: 'LifeHack, Knowledge'
+tags: LifeHack Knowledge
 ---
 ## Smartest way to gain knowledge is to learn via experience (not just yours, but also of others).
 
