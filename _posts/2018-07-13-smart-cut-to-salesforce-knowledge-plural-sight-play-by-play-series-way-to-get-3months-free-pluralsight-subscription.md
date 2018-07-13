@@ -5,8 +5,8 @@ mathjax: false
 featured: false
 comments: false
 title: >-
-  Smart-cut to Salesforce Knowledge - Plural sight Play by Play series + Way to
-  get 3 months free pluralsight subscription
+  Smart-cut to Salesforce Knowledge - Pluralsight Play by Play + 3 months free
+  subscription hack
 description: >-
   Smart-cut to Salesforce Knowledge - Plural sight Play by Play series + Way to
   get 3months free pluralsight subscription
