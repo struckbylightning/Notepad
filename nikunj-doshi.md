@@ -1,13 +1,19 @@
 ---
 layout: page
 permalink: /nikunj-doshi/index.html
-title: Saurabh Shrivastava
+title: Nikunj Doshi
 tags:
 	- Nikunj
 	- Doshi
 	- Lightning
 	- Salesforce
 	- about
+	- Salesforce Freebies
+	- Apex
+	- Aura
+	- Lightning Components
+	- Visaulforce
+	- Learning
 chart: true
 published: true
 description: >-
@@ -31,8 +37,14 @@ featured: false
     {% assign featuredcount = featuredcount | plus: 1 %}
     {% endif %}
 {% endfor %}
- 
-My name is **Nikunj Doshi**, this is the place where I plan to share tips, tricks, nuggets, learnings gained out of interacting with Salesforce for now more than 5 years.
+
+If you came to this page means, you want to know more about me.
+
+Thanks for taking your time to visit here, please allow me to introduce myself. I\`m Nikunj Doshi, a Platform 2 Certified Salesforce.com Developer/Technical Lead with 5+ years of experience in developing through all phases of Salesforce Application development lifecycle, from initial technical designs, implementation, testing, to production deployments.
+
+This is the place where I plan to share tips, tricks, nuggets, learnings gained out of interacting with Salesforce for now more than 5 years.
+
+
 
 It currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories which combinedly have {{ total_words }} words, which will take an average reader ({{ site.wpm }} WPM) approximately <span class="time">{{ total_readtime }}</span> minutes to read. {% if featuredcount != 0 %}There are <a href="{{ site.url }}/featured">{{ featuredcount }} featured posts</a>, you should definitely check those out.{% endif %} The most recent post is {% for post in site.posts limit:1 %}{% if post.description %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">"{{ post.title }}"</a>{% else %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}" title="Read more about {{ post.title }}">"{{ post.title }}"</a>{% endif %}{% endfor %} which was published on {% for post in site.posts limit:1 %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}<time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time>{% endif %}{% endif %}{% endfor %}. The last commit was on {{ site.time | date: "%A, %d %b %Y" }} at {{ site.time | date: "%I:%M %p" }} [UTC](http://en.wikipedia.org/wiki/Coordinated_Universal_Time "Temps Universel Coordonné").
 
