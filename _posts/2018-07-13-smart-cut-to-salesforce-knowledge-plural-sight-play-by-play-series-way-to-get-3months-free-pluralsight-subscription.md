@@ -2,8 +2,8 @@
 layout: post
 published: true
 mathjax: false
-featured: false
-comments: false
+featured: true
+comments: true
 title: >-
   Smart-cut to Salesforce Knowledge - Pluralsight Play by Play + 3 months free
   subscription hack
