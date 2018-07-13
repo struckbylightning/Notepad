@@ -21,9 +21,9 @@ tags: 'LifeHack, Knowledge'
 
 I vividly remember having fun learning Salesforce by watching Chris Barry\`s DEV 401/501 courses 6 years back, since then none of the salesforce educational video series have impressed me enough.
 
-Untill now when I came accross [Salesforce Play by Play series on Pluralsight by Don Robbins](https://app.pluralsight.com/library/search?i=1&m_Sort=relevance&q=play+by+play&q1=course&q2=salesforce&x1=categories&x2=tools), which got me immediately hooked as you get a chance to gain first hand knowledge from the folks who have BEEN there, DONE that.
+Until now when I came across [Salesforce Play by Play series on Pluralsight by Don Robbins](https://app.pluralsight.com/library/search?i=1&m_Sort=relevance&q=play+by+play&q1=course&q2=salesforce&x1=categories&x2=tools), which got me immediately hooked as you get a chance to gain first-hand knowledge from the folks who have BEEN there, DONE that.
 
-Incase you have doubts on how good they are try 1month free pluralsight subscription or follow below steps to get 3/6 months subscriptions (via crunchadeal.com).
+In case you have doubts on how good they are, try 1 month free pluralsight subscription or follow below steps to get 3/6 months subscriptions (via crunchadeal.com).
 
 1. Head over to pluralsight.com
 2. Create a Microsoft live account from here. You don’t have to create one if you already have one.
@@ -33,6 +33,6 @@ Incase you have doubts on how good they are try 1month free pluralsight subscrip
 pluralsight-free
 6. Once activated, you will be taken to the pluralsight website. Sign up using your email and you will get six months of free subscription.
 
-Do share your smartcuts to knowledge in comments section below.
+Do share your smartcuts to knowledge in the comments section below.
 
 ![Pluralsight salesforce play by play.png]({{site.baseurl}}/images/plural%20sight%20salesforce%20play%20by%20play.png)
