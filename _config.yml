@@ -14,9 +14,9 @@ url:        	  https://struckbylightning.github.io
 owner:
   name:           Nikunj Doshi
   avatar:         nikunj-doshi.jpg
-  email:          nikunj.sfdc@gmail.com
+  email:          nikunj.sfdc@gmail.com | https://www.linkedin.com/in/nikunj-doshi/
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Living one moment at a time.
+  description:    Enthusiastic and passionate PD2 certified salesforce devloper/architect :)
   # Social networking links used in footer. Update and remove as you like.
   twitter:        Nikunj_doshi
   facebook:       Nikunj831991
@@ -141,7 +141,7 @@ prose:
         field:
           element: "checkbox"
           label: "Comments"
-          value: false
+          value: true
 
 gems:
   - jekyll-sitemap
