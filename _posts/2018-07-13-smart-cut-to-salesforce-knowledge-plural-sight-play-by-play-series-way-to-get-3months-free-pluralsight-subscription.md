@@ -22,7 +22,7 @@ imagefeature: '{{site.baseurl}}/images/plural%20sight%20salesforce%20play%20by%2
 
 I vividly remember having fun learning Salesforce by watching Chris Barry\`s DEV 401/501 courses 6 years back, since then none of the salesforce educational video series have impressed me enough;
 
-Until now when I came across [Salesforce Play by Play series on Pluralsight by Don Robbins](https://app.pluralsight.com/library/search?i=1&m_Sort=relevance&q=play+by+play&q1=course&q2=salesforce&x1=categories&x2=tools), which got me immediately hooked as it gives a chance to gain first-hand knowledge from the folks who have BEEN there, DONE that.
+Until now when I came across [Salesforce Play by Play series on Pluralsight by Don Robins](https://app.pluralsight.com/library/search?i=1&m_Sort=relevance&q=play+by+play&q1=course&q2=salesforce&x1=categories&x2=tools), which got me immediately hooked as it gives a chance to gain first-hand knowledge from the folks who have BEEN there, DONE that.
 
 In case you have doubts on how good they are, try 1 month free pluralsight subscription or follow below steps to get 3/6 months subscriptions (via crunchadeal.com).
 
