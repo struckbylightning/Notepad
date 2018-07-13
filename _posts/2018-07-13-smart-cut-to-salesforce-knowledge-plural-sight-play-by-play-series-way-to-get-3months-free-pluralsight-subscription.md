@@ -17,9 +17,7 @@ categories:
   - Freebies
 tags: 'LifeHack, Knowledge'
 ---
-## Smart-cut to Salesforce Knowledge
-
-Smartest way to gain knowledge is to learn via experience (not just yours, but also of others).
+## Smartest way to gain knowledge is to learn via experience (not just yours, but also of others).
 
 I vividly remember having fun learning Salesforce by watching ChrisBarry\`s DEV 401/501 courses 6 years back, since then none of the salesforce educational video series have impressed me enough.
 
