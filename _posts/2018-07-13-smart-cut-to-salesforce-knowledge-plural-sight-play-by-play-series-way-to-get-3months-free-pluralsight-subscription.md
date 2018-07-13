@@ -6,7 +6,7 @@ featured: false
 comments: false
 title: >-
   Smart-cut to Salesforce Knowledge - Plural sight Play by Play series + Way to
-  get 3months free pluralsight subscription
+  get 3 months free pluralsight subscription
 description: >-
   Smart-cut to Salesforce Knowledge - Plural sight Play by Play series + Way to
   get 3months free pluralsight subscription
