@@ -24,15 +24,15 @@ I vividly remember having fun learning Salesforce by watching Chris Barry\`s DEV
 
 Until now when I came across [Salesforce Play by Play series on Pluralsight by Don Robins](https://app.pluralsight.com/profile/author/don-robins), which got me immediately hooked as it gives a chance to gain first-hand knowledge from the folks who have BEEN there, DONE that.
 
-In case you have doubts on how good they are, try 1 month free pluralsight subscription or follow below steps to get 3/6 months subscriptions (via crunchadeal.com).
+In case you have doubts on how good they are, try 1 month free pluralsight subscription or follow below steps to get 3 months subscriptions (via crunchadeal.com).
 
 1. Head over to pluralsight.com
 2. Create a Microsoft live account from here https://home.live.com/. You don’t have to create one if you already have one.
 3. Now, go to https://my.visualstudio.com and create an account with your Microsoft live id.
-4. You will see the visual studio dev essentials page with pluralsight 6 months subscription option.
+4. You will see the visual studio dev essentials page with pluralsight 3 months subscription option.
 5. Click “Get Coupon” option and then click activate link as shown in the image below.
 pluralsight-free
-6. Once activated, you will be taken to the pluralsight website. Sign up using your email and you will get six months of free subscription.
+6. Once activated, you will be taken to the pluralsight website. Sign up using your email and you will get three months of free subscription.
 
 Do share your smartcuts to knowledge in the comments section below.
 
