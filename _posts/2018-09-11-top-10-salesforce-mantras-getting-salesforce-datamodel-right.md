@@ -8,7 +8,7 @@ title: Top 10 Salesforce Mantras - Getting Salesforce DataModel Right
 ---
 ## Getting Salesforce DataModel Right
 
-There’s a thin line between having your salesforce end up as a glorified dumb database where data entry is considered as an overhead v/s a smart realtime insight generating database where data entry is considered as worthwhile given the insights it generates.
+There’s a thin line between having your salesforce end up as a glorified dumb database where data entry is considered as an overhead v/s a smart realtime insight generating database where data entry is considered as worthwhile given the analytics it generates.
 
 If above sounds familiar to you and you are getting anxious to know what’s that secret salesforce sauce that causes all the difference then come aboard this post is just for you,
 
