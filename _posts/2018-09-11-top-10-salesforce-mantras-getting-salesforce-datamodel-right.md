@@ -28,7 +28,7 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
 2. Inorder to understand when to go Flat(DeNormalize) or not to go flat(Normalize), Let\`s consider below user stories,
 
-    ![Datamodel user stories]({{site.baseurl}}/images/Datamodel%20user%20stories%20v2.png)
+    ![Datamodel user stories]({{site.baseurl}}/images/Datamodel user stories v2.png)
 
     Let\`s take the First user story to understand when not to go flat, Here Data can be modelled in     below two ways,
 
