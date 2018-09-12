@@ -47,7 +47,7 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
     ![Master Detail Vs Lookup]({{site.baseurl}}/images/Master_detail_vs_lookup.png)
 
-6. Rollup Summary for Lookup relationships,
+6. Rollup Summary for Lookup relationships -
     Let\`s consider you have built lookup realtionship but still desperately need rollup fields, worry not there are many appexchange packages like [Rollup Helper](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009i3UpEAI) and open sourced code projects like [the one here which I build](https://struckbylightning.github.io/2018/05/apex/freebies/define-rollup-fields-for-lookup-relationships-in-custom-metadata) available for your rescue.
 
 7. Understand when to leverage standard object v/s when to build a custom object, using below pointers,
