@@ -38,8 +38,7 @@ Here Data can be modelled in below two ways (green and red),
    ![Sales_Rep_Sales_Split_ERD]({{site.baseurl}}/images/Sales_Rep_Sales_Split_ERD.png) 
    ![Sales Rep Sales Split]({{site.baseurl}}/images/Sales_Rep_Sales_Split.png)
 
-   As the Focus of this user story is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into separate table of its own (normalize/not go flat) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter).
-     * 
+   As the Focus of this user story is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into separate table of its own (normalize/not go flat) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter). 
     **Now let\`s take the second user story to understand when not to go flat, Here also Data can be modelled in below two ways**,   
     **User Story** - AS A Sales Executive I WANT to easily enter mobile/fax/home contact numbers for a Lead SO THAT I can quickly find contact numbers when looking at lead record page, list views & reports and establish contact.
     From the story we pick up, we are able to derive below specific needs,
