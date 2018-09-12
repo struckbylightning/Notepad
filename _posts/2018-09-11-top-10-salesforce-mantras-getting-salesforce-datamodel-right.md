@@ -27,13 +27,22 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 Inorder to understand when to go Flat(DeNormalize) or not to go flat(Normalize), Let\`s consider below user stories,
 ![Datamodel user stories.png]({{site.baseurl}}/images/Datamodel user stories.png)
 
-1. First user story can be achieved in below two ways,
+1. Let\`s take the First user story to understand when not to go flat,
 
+Here Data can be modelled in below two ways,
 
+![Sales Rep Sales Split]({{site.baseurl}}/images/Screen%20Shot%202018-09-12%20at%2011.06.06%20am.png)
 
-2. , AS A Sales Manager I WANT to track commision percentanges for all the consultant working towards getting sales closed as per the their individual contributions SO THAT i can generate an important KPI report showing Commision Share Per Consultant Per Quarter.
+Focus of this userstory is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into seprate table of it\`s own (normalize/not go falt) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter).
 
-There are two ways to have the data model built to capture this information
+2. Now let\`s take the second user story to understand when not to go flat,
+
+Here also Data can be modelled in below two ways,
+
+![Lead Contact Numbers]({{site.baseurl}}/images/Screen%20Shot%202018-09-12%20at%2011.14.42%20am.png)![Screen Shot 2018-09-12 at 11.14.42 am.png]({{site.baseurl}}/images/Screen Shot 2018-09-12 at 11.14.42 am.png)
+
+But here, we don\`t have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone datatype on Lead itself, so that those fields can then be easily added to the list views built on Lead object
+
 
 1. Go top to botton Vision/Pain Points - Reporting/Integration Needs - Data Model
 2. Go Flat but just not to flat, do a smart tradeoff between 
