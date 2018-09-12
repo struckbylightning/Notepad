@@ -41,11 +41,14 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
     But here, we don\`t have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone datatype on Lead itself, so that those fields can then be easily added to the list views built on Lead object
 
-4. Understand cardinality in salesforce
+4. Understand cardinality in salesforce Understand cardinality 1:1, 1:n & 1:1
 
-5. There are two ways to build relationship between objects, use below table to understand when to use what,
+5. There are two types available to build relationship between objects, use below table to understand when to use which,
 
-6. Let\`s consider you have built lookup realtionship but still desperately need rollup fields, worry not there are many appexchange packages like [Rollup Helper](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009i3UpEAI) and open sourced code projects like [the one here which I build](https://struckbylightning.github.io/2018/05/apex/freebies/define-rollup-fields-for-lookup-relationships-in-custom-metadata) available for your rescue.
+![Master Detail Vs Lookup]({{site.baseurl}}/images/Master_detail_vs_lookup.png)
+
+6. Rollup Summary for Lookup relationships,
+Let\`s consider you have built lookup realtionship but still desperately need rollup fields, worry not there are many appexchange packages like [Rollup Helper](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009i3UpEAI) and open sourced code projects like [the one here which I build](https://struckbylightning.github.io/2018/05/apex/freebies/define-rollup-fields-for-lookup-relationships-in-custom-metadata) available for your rescue.
 
 7. Understand when to leverage standard object v/s when to build a custom object, using below pointers,
 Start with, Understanding the Salesforce Standard Objects and fields and their ‘Special Features’
@@ -67,7 +70,7 @@ Usually in a standard form:
 6. Design for referential integretiy, so data needs to exist only once 
 4. Segment object using record type
 5. 
-7. Understand cardinality 1:1, 1:n & 1:1
+7. 
 8. Get into continuous refactoring mindset, what is right today might not be right tomorrow so don\`t be afraid to refactor/redesinging your datamodel to suit your needs, and use tools like dataloader to massage your existing data to match new data model design
 9. Indexes and External Ids
 10. Be thoughtful about names & Help out your users using help text and descriptions
