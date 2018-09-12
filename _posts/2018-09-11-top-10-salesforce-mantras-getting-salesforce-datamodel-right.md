@@ -29,16 +29,16 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
     **Let's take the First user story to understand when not to go flat, Here Data can be modelled in below two ways**,
     **User Story** - AS A Sales Manager I WANT to track commission percentages for all the sales rep working towards getting sales closed as per their individual contributions SO THAT I can generate an important KPI report showing Commision Share Per Consultant Per Quarter.
-From the story we pick up, we are able to derive below specfic needs,
-  * **Analytics Needs** - A Real-time report showing commision share per sales rep per quarter
-  * **User Experience Needs** - Able to log commission percentages per consultant per sale
+    From the story we pick up, we are able to derive below specfic needs,
+      * **Analytics Needs** - A Real-time report showing commision share per sales rep per quarter
+      * **User Experience Needs** - Able to log commission percentages per consultant per sale
 
 Here Data can be modelled in below two ways (green and red),
 
    ![Sales_Rep_Sales_Split_ERD]({{site.baseurl}}/images/Sales_Rep_Sales_Split_ERD.png) 
    ![Sales Rep Sales Split]({{site.baseurl}}/images/Sales_Rep_Sales_Split.png)
 
-    As the Focus of this user story is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into separate table of its own (normalize/not go flat) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter).
+   As the Focus of this user story is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into separate table of its own (normalize/not go flat) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter).
 
    **Now let\`s take the second user story to understand when not to go flat, Here also Data can be modelled in below two ways**,   
     **User Story** - AS A Sales Executive I WANT to easily enter mobile/fax/home contact numbers for a Lead SO THAT I can quickly find contact numbers when looking at lead record page, list views & reports and establish contact.
@@ -50,8 +50,7 @@ Here also data can be modelled in below two ways (green and red),
    ![Lead_Contact_Numbers_ERD]({{site.baseurl}}/images/Lead_Contact_Numbers_ERD.png)   
    ![Lead Contact Numbers]({{site.baseurl}}/images/Lead_Contact_Numbers.png)
 
-
-    But here, as we don't have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone data type on Lead itself, so that those fields can then be easily added to the list views built on Lead object.
+   But here, as we don't have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone data type on Lead itself, so that those fields can then be easily added to the list views built on Lead object.
 
 3. Understand cardinality in salesforce (1:1, 1:n & m:n)
     ![salesforce_cardinality.png]({{site.baseurl}}/images/salesforce_cardinality.png)
