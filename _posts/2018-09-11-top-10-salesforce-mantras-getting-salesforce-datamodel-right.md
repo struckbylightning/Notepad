@@ -29,27 +29,29 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
     ![Datamodel user stories]({{site.baseurl}}/images/Datamodel user stories v2.png)
 
-    Let\`s take the First user story to understand when not to go flat, Here Data can be modelled in     below two ways,
+    **Let\`s take the First user story to understand when not to go flat, Here Data can be modelled in below two ways**,
 
     ![Sales Rep Sales Split]({{site.baseurl}}/images/Sales_Rep_Sales_Split.png)
 
     Focus of this userstory is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into seprate table of it\`s own (normalize/not go falt) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter).
 
-3. Now let\`s take the second user story to understand when not to go flat, Here also Data can be modelled in below two ways,
+   **Now let\`s take the second user story to understand when not to go flat, Here also Data can be modelled in below two ways**,
 
     ![Lead Contact Numbers]({{site.baseurl}}/images/Lead_Contact_Numbers.png)
 
     But here, we don\`t have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone datatype on Lead itself, so that those fields can then be easily added to the list views built on Lead object
 
-4. Understand cardinality in salesforce Understand cardinality 1:1, 1:n & 1:1
-    TBA
-5. There are two types available to build relationship between objects, use below table to understand when to use which,
+3. Understand cardinality in salesforce (1:1, 1:n & m:n)
+    ![salesforce_cardinality.png]({{site.baseurl}}/images/salesforce_cardinality.png)
+    Create Lookup/MasterDetail to achieve 1:1 & !:n & [Create an additional junction object](https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/adg_relationships_many_relationship.htm) to achieve many to many relationships
+    
+4. There are two types available to build relationship between objects, use below table to understand when to use which,
 
     ![Master Detail Vs Lookup]({{site.baseurl}}/images/Master_detail_vs_lookup.png)
 
-6. Let\`s consider you have built lookup realtionship but still desperately need rollup fields, worry not there are many appexchange packages like [Rollup Helper](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009i3UpEAI) and open sourced code projects like [the one here which I build](https://struckbylightning.github.io/2018/05/apex/freebies/define-rollup-fields-for-lookup-relationships-in-custom-metadata) available for your rescue.
+5. Let\`s consider you have built lookup realtionship but still desperately need rollup fields, worry not there are many appexchange packages like [Rollup Helper](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009i3UpEAI) and open sourced code projects like [the one here which I build](https://struckbylightning.github.io/2018/05/apex/freebies/define-rollup-fields-for-lookup-relationships-in-custom-metadata) available for your rescue.
 
-7. Understand when to leverage standard object v/s when to build a custom object, using below pointers,
+6. Understand when to leverage standard object v/s when to build a custom object, using below pointers,
 Start with, Understanding the Salesforce Standard Objects and fields and their ‘Special Features’
   * If it walks like a duck and talks like a duck, its probably a Duck.
   * If it’s called a Duck but it walks like a chicken and talks like a chicken, its  probably a Chicken.
@@ -59,16 +61,15 @@ Start with, Understanding the Salesforce Standard Objects and fields and their �
    * ‘We need to track Jobs, with email interactions and pass it back and forth between people ’
     * I think you mean ‘Case’.
 
-8. Define the user stories in a way that expresses a requirement in a way that provides context and justification,
+7. Define the user stories in a way that expresses a requirement in a way that provides context and justification,
   * Usually in a standard form: ‘AS A \<Job Role\> I WANT to <some business process> SO THAT I can <achieve  some outcome>’
   * For sample user stories refer #2
-9. Rename [Object, Tab, and Field Labels](https://help.salesforce.com/articleView?id=customize_rename.htm&r=https%3A%2F%2Fwww.google.com.au%2F&type=5) to make your users feel at home 
-10. Design for referential integretiy, so data needs to exist only once & Segment object using record type.
-11. Get into continuous refactoring mindset, what is right today might not be right tomorrow so don\`t be afraid to refactor/redesinging your datamodel to suit your needs, and use tools like dataloader to massage your existing data to match new data model design
-12. Indexes and External Ids
-13. Be thoughtful about names \& Help out your users using help text and descriptions
+8. Rename [Object, Tab, and Field Labels](https://help.salesforce.com/articleView?id=customize_rename.htm&r=https%3A%2F%2Fwww.google.com.au%2F&type=5) to make your users feel at home 
+9. Get into continuous refactoring mindset, what is right today might not be right tomorrow so don\`t be afraid to refactor/redesinging your datamodel to suit your needs, and use tools like dataloader to massage your existing data to match new data model design
+10. Be thoughtful about names, because what you name something can live with you forever \& remember to add descriptions & helptext everywhere it is possible in order to self document your org.
 
-Resources to learn more than just tips and become a Pro at scalable datamodelling,
+
+Few Resources to learn more than just tips and become a Pro at scalable datamodelling,
 1. [Data Modelling Basics - Trailhead Module](https://trailhead.salesforce.com/en/modules/data_modeling)
 2. [Build a Data Model for a Recruiting App - Trailhead Project](https://trailhead.salesforce.com/en/projects/build-a-data-model-for-a-recruiting-app)
 3. [Play by Play: Denormalize Your Thinking About Salesforce Data Modeling](https://app.pluralsight.com/player?course=play-by-play-denormalize-thinking-salesforce-data-modeling&author=don-robins&name=5b27875e-f42e-45e7-9e78-65a1810ca266&clip=1&mode=live)
