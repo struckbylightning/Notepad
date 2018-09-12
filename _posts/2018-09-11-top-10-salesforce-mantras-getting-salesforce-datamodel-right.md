@@ -24,10 +24,12 @@ Why,
 
 So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
+1. Go top to botton while designing a data model, first understand the Vision/Challenges/Pain Points, then understand Reporting/Integration/Security/Performance Needs and then finally design and build the Data Model.
+
 Inorder to understand when to go Flat(DeNormalize) or not to go flat(Normalize), Let\`s consider below user stories,
 ![Datamodel user stories.png]({{site.baseurl}}/images/Datamodel user stories.png)
 
-1. Let\`s take the First user story to understand when not to go flat,
+2. Let\`s take the First user story to understand when not to go flat,
 
 Here Data can be modelled in below two ways,
 
@@ -35,7 +37,7 @@ Here Data can be modelled in below two ways,
 
 Focus of this userstory is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into seprate table of it\`s own (normalize/not go falt) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter).
 
-2. Now let\`s take the second user story to understand when not to go flat,
+3. Now let\`s take the second user story to understand when not to go flat,
 
 Here also Data can be modelled in below two ways,
 
@@ -43,13 +45,33 @@ Here also Data can be modelled in below two ways,
 
 But here, we don\`t have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone datatype on Lead itself, so that those fields can then be easily added to the list views built on Lead object
 
+4. Understand cardinality in salesforce
 
-1. Go top to botton Vision/Pain Points - Reporting/Integration Needs - Data Model
-2. Go Flat but just not to flat, do a smart tradeoff between 
-3. Design for referential integretiy, so data needs to exist only once 
+5. There are two ways to build relationship between objects, use below table to understand when to use what,
+
+6. Let\`s consider you have built lookup realtionship but still desperately need rollup fields, worry not there are many appexchange packages like [Rollup Helper](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009i3UpEAI) and open sourced code projects like [the one here which I build](https://struckbylightning.github.io/2018/05/apex/freebies/define-rollup-fields-for-lookup-relationships-in-custom-metadata) available for your rescue.
+
+7. Understand when to leverage standard object v/s when to build a custom object, using below pointers
+
+-- Start with, Understanding the Salesforce Standard Objects and fields and their ‘Special Features’
+-- If it walks like a duck and talks like a duck, its probably a Duck.
+-- If it’s called a Duck but it walks like a chicken and talks like a chicken, its  probably a Chicken.
+For example,
+-- ‘We need to keep quotes, but we won’t be using Opportunities, or  Products or be sending Quote’s out of Salesforce’
+It’s probably not the Quote object
+-- ‘We need to track Jobs, with email interactions and pass it back and forth between people ’
+I think you mean ‘Case’.
+
+8. Define the user stories in a way that expresses a requirement in a way that provides context and justification
+Usually in a standard form:
+‘AS A \<Job Role\> I WANT to <some business process> SO THAT I can <achieve  some outcome>’
+  For example refer #2
+9. Rename [Object, Tab, and Field Labels](https://help.salesforce.com/articleView?id=customize_rename.htm&r=https%3A%2F%2Fwww.google.com.au%2F&type=5) to make your users feel at home 
+
+
+6. Design for referential integretiy, so data needs to exist only once 
 4. Segment object using record type
-5. [Rename Object, Tab, and Field Labels] to make your users feel at home 
-6. Lookup vs master detail
+5. 
 7. Understand cardinality 1:1, 1:n & 1:1
 8. Get into continuous refactoring mindset, what is right today might not be right tomorrow so don\`t be afraid to refactor/redesinging your datamodel to suit your needs, and use tools like dataloader to massage your existing data to match new data model design
 9. Indexes and External Ids
