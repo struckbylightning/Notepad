@@ -14,13 +14,12 @@ If above sounds familiar to you and you are getting anxious to know what’s tha
 
 As someone rightly said, “You Are Only as Strong as Your Foundation”, Inorder to realise your Salesforce investments worth, we need to get our foundation which in Salesforce\`s case is Data Model design RIGHT.
 
-Before we hop on to the Top 10 secrets of getting salesforce data model design it right, Let\`s reiterate why is DataModel Design that important ,
-
-Why,
+Before we hop on to the Top 10 secrets of getting salesforce data model design it right, Let\`s reiterate **WHY** DataModel Design so important ,
 1. Data model designing is critical and understanding reporting requirements UP-FRONT is a key success factor.
 2. Easy configuration is a double edged sword and Most of the times data models are setup by accidental admins or junior functional consultants who not necessarily understands the impacts of design they take on the end result of salesforce aligning to the overall vision/analytic dreams/security & performance needs.
 3. Traditional data model design principles where normalization is the norm doesn\`t work in salesforce as here calculated decisions needs to be made by weighing tradeoff between user-experience (ease of inputting data) vs reporting requirements and deciding whether to normalize or denormalize.
-4. Salesforce is not a data warehouse (nor do they want to be).  The recommended data strategy is to have the data you need and to remove the data you don’t.  While that sounds like a pretty simple concept it is much more difficult to realise.
+4. Good outcomes and bad outcomes start with the Data Model, Your Physical Data Model in Salesforce directly influences what is possible with Declarative Features vs what requires Custom  Development.
+
 
 So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
