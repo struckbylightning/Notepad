@@ -43,8 +43,8 @@ Here Data can be modelled in below two ways (green and red),
    **Now let\`s take the second user story to understand when not to go flat, Here also Data can be modelled in below two ways**,   
     **User Story** - AS A Sales Executive I WANT to easily enter mobile/fax/home contact numbers for a Lead SO THAT I can quickly find contact numbers when looking at lead record page, list views & reports and establish contact.
     From the story we pick up, we are able to derive below specific needs,
-      * **Analytics Needs** - N/A
-      * **User Experience Needs** - Able to easily enter contact number on lead and see them on record page, list view and reports.
+     * **Analytics Needs** - N/A
+     * **User Experience Needs** - Able to easily enter contact number on lead and see them on record page, list view and reports.
 
 Here also data can be modelled in below two ways (green and red),
 
