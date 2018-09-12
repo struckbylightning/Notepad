@@ -43,7 +43,8 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
 3. Understand cardinality in salesforce (1:1, 1:n & m:n)
     ![salesforce_cardinality.png]({{site.baseurl}}/images/salesforce_cardinality.png)
-    Create Lookup/MasterDetail to achieve 1:1 & 1:n & [Create an additional junction object](https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/adg_relationships_many_relationship.htm) to achieve many to many relationships
+    
+  * Create Lookup/MasterDetail to achieve 1:1 & 1:n & [Create an additional junction object](https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/adg_relationships_many_relationship.htm) to achieve many to many relationships
     
 4. There are two types available to build relationship between objects, use below table to understand when to use which,
 
@@ -58,7 +59,7 @@ Start with, Understanding the Salesforce Standard Objects and fields and their �
   * For example,
    * ‘We need to keep quotes, but we won’t be using Opportunities, or  Products or be sending Quote’s out of Salesforce’
     * It’s probably not the Quote object
-   * ‘We need to track Jobs, with email interactions and pass it back and forth between people ’
+   * ‘We need to track Requests, with email interactions and pass it back and forth between people ’
     * I think you mean ‘Case’.
 
 7. Define the user stories in a way that expresses a requirement in a way that provides context and justification,
