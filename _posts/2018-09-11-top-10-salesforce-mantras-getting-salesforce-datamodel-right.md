@@ -29,7 +29,7 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
     **Let's take the First user story to understand when not to go flat, Here Data can be modelled in below two ways**,
     **User Story** - AS A Sales Manager I WANT to track commission percentages for all the sales rep working towards getting sales closed as per their individual contributions SO THAT I can generate an important KPI report showing Commision Share Per Consultant Per Quarter.
-    From the story we pick up, we are able to derive below specfic needs,
+    From the story we pick up, we are able to derive below specific needs,
       * **Analytics Needs** - A Real-time report showing commision share per sales rep per quarter
       * **User Experience Needs** - Able to log commission percentages per consultant per sale
 
