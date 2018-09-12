@@ -42,7 +42,7 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
     But here, we don\`t have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone datatype on Lead itself, so that those fields can then be easily added to the list views built on Lead object
 
 4. Understand cardinality in salesforce Understand cardinality 1:1, 1:n & 1:1
-
+    TBA
 5. There are two types available to build relationship between objects, use below table to understand when to use which,
 
 ![Master Detail Vs Lookup]({{site.baseurl}}/images/Master_detail_vs_lookup.png)
@@ -61,22 +61,14 @@ Start with, Understanding the Salesforce Standard Objects and fields and their �
     * I think you mean ‘Case’.
 
 8. Define the user stories in a way that expresses a requirement in a way that provides context and justification
-Usually in a standard form:
-‘AS A \<Job Role\> I WANT to <some business process> SO THAT I can <achieve  some outcome>’
-  For example refer #2
+    Usually in a standard form: ‘AS A \<Job Role\> I WANT to <some business process> SO THAT I can <achieve  some outcome>’, For sample user stories refer #2
 9. Rename [Object, Tab, and Field Labels](https://help.salesforce.com/articleView?id=customize_rename.htm&r=https%3A%2F%2Fwww.google.com.au%2F&type=5) to make your users feel at home 
+10. Design for referential integretiy, so data needs to exist only once & Segment object using record type
+11. Get into continuous refactoring mindset, what is right today might not be right tomorrow so don\`t be afraid to refactor/redesinging your datamodel to suit your needs, and use tools like dataloader to massage your existing data to match new data model design
+12. Indexes and External Ids
+13. Be thoughtful about names \& Help out your users using help text and descriptions
 
-
-6. Design for referential integretiy, so data needs to exist only once 
-4. Segment object using record type
-5. 
-7. 
-8. Get into continuous refactoring mindset, what is right today might not be right tomorrow so don\`t be afraid to refactor/redesinging your datamodel to suit your needs, and use tools like dataloader to massage your existing data to match new data model design
-9. Indexes and External Ids
-10. Be thoughtful about names & Help out your users using help text and descriptions
-
-Most importantly 
-
-Resources to learn more than just tips and become a Pro at scalable datamodelling.
+Resources to learn more than just tips and become a Pro at scalable datamodelling,
 1. [Data Modelling Basics - Trailhead Module](https://trailhead.salesforce.com/en/modules/data_modeling)
 2. [Build a Data Model for a Recruiting App - Trailhead Project](https://trailhead.salesforce.com/en/projects/build-a-data-model-for-a-recruiting-app)
+3. [Play by Play: Denormalize Your Thinking About Salesforce Data Modeling](https://app.pluralsight.com/player?course=play-by-play-denormalize-thinking-salesforce-data-modeling&author=don-robins&name=5b27875e-f42e-45e7-9e78-65a1810ca266&clip=1&mode=live)
