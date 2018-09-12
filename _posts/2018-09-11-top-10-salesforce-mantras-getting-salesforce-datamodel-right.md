@@ -62,7 +62,7 @@ Start with, Understanding the Salesforce Standard Objects and fields and their �
 8. Define the user stories in a way that expresses a requirement in a way that provides context and justification
     Usually in a standard form: ‘AS A \<Job Role\> I WANT to <some business process> SO THAT I can <achieve  some outcome>’, For sample user stories refer #2
 9. Rename [Object, Tab, and Field Labels](https://help.salesforce.com/articleView?id=customize_rename.htm&r=https%3A%2F%2Fwww.google.com.au%2F&type=5) to make your users feel at home 
-10. Design for referential integretiy, so data needs to exist only once & Segment object using record type
+10. Design for referential integretiy, so data needs to exist only once & Segment object using record type.
 11. Get into continuous refactoring mindset, what is right today might not be right tomorrow so don\`t be afraid to refactor/redesinging your datamodel to suit your needs, and use tools like dataloader to massage your existing data to match new data model design
 12. Indexes and External Ids
 13. Be thoughtful about names \& Help out your users using help text and descriptions
