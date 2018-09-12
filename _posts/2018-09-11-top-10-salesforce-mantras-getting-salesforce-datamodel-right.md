@@ -47,9 +47,8 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
 6. Let\`s consider you have built lookup realtionship but still desperately need rollup fields, worry not there are many appexchange packages like [Rollup Helper](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009i3UpEAI) and open sourced code projects like [the one here which I build](https://struckbylightning.github.io/2018/05/apex/freebies/define-rollup-fields-for-lookup-relationships-in-custom-metadata) available for your rescue.
 
-7. Understand when to leverage standard object v/s when to build a custom object, using below pointers
-
- * Start with, Understanding the Salesforce Standard Objects and fields and their ‘Special Features’
+7. Understand when to leverage standard object v/s when to build a custom object, using below pointers,
+Start with, Understanding the Salesforce Standard Objects and fields and their ‘Special Features’
   * If it walks like a duck and talks like a duck, its probably a Duck.
   * If it’s called a Duck but it walks like a chicken and talks like a chicken, its  probably a Chicken.
   * For example,
