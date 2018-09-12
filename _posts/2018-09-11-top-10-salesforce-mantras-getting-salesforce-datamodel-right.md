@@ -49,14 +49,14 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
 7. Understand when to leverage standard object v/s when to build a custom object, using below pointers
 
--- Start with, Understanding the Salesforce Standard Objects and fields and their ‘Special Features’
--- If it walks like a duck and talks like a duck, its probably a Duck.
--- If it’s called a Duck but it walks like a chicken and talks like a chicken, its  probably a Chicken.
-For example,
--- ‘We need to keep quotes, but we won’t be using Opportunities, or  Products or be sending Quote’s out of Salesforce’
-It’s probably not the Quote object
--- ‘We need to track Jobs, with email interactions and pass it back and forth between people ’
-I think you mean ‘Case’.
+ * Start with, Understanding the Salesforce Standard Objects and fields and their ‘Special Features’
+  * If it walks like a duck and talks like a duck, its probably a Duck.
+  * If it’s called a Duck but it walks like a chicken and talks like a chicken, its  probably a Chicken.
+  * For example,
+   * ‘We need to keep quotes, but we won’t be using Opportunities, or  Products or be sending Quote’s out of Salesforce’
+    * It’s probably not the Quote object
+   * ‘We need to track Jobs, with email interactions and pass it back and forth between people ’
+    * I think you mean ‘Case’.
 
 8. Define the user stories in a way that expresses a requirement in a way that provides context and justification
 Usually in a standard form:
