@@ -28,19 +28,19 @@ So here are the **Top 10 Secrets to smartly designing in salesforce database**
 
 2. Inorder to understand when to go Flat(DeNormalize) or not to go flat(Normalize), Let\`s consider below user stories,
 
-![Datamodel user stories]({{site.baseurl}}/images/Datamodel%20user%20stories%20v2.png)
+    ![Datamodel user stories]({{site.baseurl}}/images/Datamodel%20user%20stories%20v2.png)
 
-Let\`s take the First user story to understand when not to go flat, Here Data can be modelled in below two ways,
+    Let\`s take the First user story to understand when not to go flat, Here Data can be modelled in     below two ways,
 
-![Sales Rep Sales Split]({{site.baseurl}}/images/Sales_Rep_Sales_Split.png)
+    ![Sales Rep Sales Split]({{site.baseurl}}/images/Sales_Rep_Sales_Split.png)
 
-Focus of this userstory is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into seprate table of it\`s own (normalize/not go falt) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter).
+    Focus of this userstory is on the analytics needs, so here from reporting perspective, here it make sense to store Sales Rep\`s split % into seprate table of it\`s own (normalize/not go falt) because, now we can easily build a report to generate metrics like commision share per rep per quarter in minutes time by using report type Sales with Sales Rep Splits and grouping columns by sales rep and columns by sales date(grouped by quarter).
 
 3. Now let\`s take the second user story to understand when not to go flat, Here also Data can be modelled in below two ways,
 
-![Lead Contact Numbers]({{site.baseurl}}/images/Lead_Contact_Numbers.png)
+    ![Lead Contact Numbers]({{site.baseurl}}/images/Lead_Contact_Numbers.png)
 
-But here, we don\`t have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone datatype on Lead itself, so that those fields can then be easily added to the list views built on Lead object
+    But here, we don\`t have any specific analytic needs on contact numbers instead here the focus is on the user experience in entering and viewing the data, so here it makes sense to go flat and simply create fields of phone datatype on Lead itself, so that those fields can then be easily added to the list views built on Lead object
 
 4. Understand cardinality in salesforce
 
