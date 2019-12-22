@@ -12,9 +12,8 @@ Three ways to achieve Signle sign on into salesforce
 
 1. Federated - SAML
     - IDP Initiated
-    bunvh ogqasjkgs  
     jsgkfkjg
-    - SP Initiated
+    - SP Initiated  
     dssgd
     - Exampled of IDP - OKTA, Ping, ADFS, Salesforce Identity  
     jbxdzfk,
