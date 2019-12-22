@@ -8,7 +8,7 @@ title: Single Sign On Demystified - Salesforce as a Service Provider
 ---
 ## Notes from my #JourneyToCTA
 
-Threewaya toa achieve Signle sign on into salesforce 
+Three ways to achieve Signle sign on into salesforce 
 
 1. Federated - SAML
     - IDP Initiated
