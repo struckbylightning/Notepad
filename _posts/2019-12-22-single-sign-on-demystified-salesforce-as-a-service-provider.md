@@ -12,8 +12,8 @@ Threewaya toa achieve Signle sign on into salesforce
 
 1. Federated - SAML
 
-* IDP Initiated
-* SP Initiated
+    * IDP Initiated
+    * SP Initiated
     
     - Exampled of IDP - OKTA, Ping, ADFS, Salesforce Identity
     
