@@ -11,8 +11,8 @@ title: Single Sign On Demystified - Salesforce as a Service Provider
 Threewaya toa achieve Signle sign on into salesforce 
 
 1. Federated - SAML
-
     - IDP Initiated
+    	bunvh ogqasjkgs
     - SP Initiated
     - Exampled of IDP - OKTA, Ping, ADFS, Salesforce Identity
     
