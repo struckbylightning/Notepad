@@ -15,7 +15,7 @@ Three ways to achieve Signle sign on into salesforce
     jksghflg
     - SP Initiated  
     dssgd
-    - Exampled of IDP - OKTA, Ping, ADFS, Salesforce Identity  
+Exampled of IDP - OKTA, Ping, ADFS, Salesforce Identity  
     jbxdzfk,
     
 2. Delegated - Webservice
