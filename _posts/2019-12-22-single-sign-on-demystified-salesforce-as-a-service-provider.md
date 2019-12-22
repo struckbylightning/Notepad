@@ -11,8 +11,8 @@ title: Single Sign On Demystified - Salesforce as a Service Provider
 Three ways to achieve Signle sign on into salesforce 
 
 1. Federated - SAML
-    - IDP Initiated
-    jsgkfkjg
+    - IDP Initiated  
+    jksghflg
     - SP Initiated  
     dssgd
     - Exampled of IDP - OKTA, Ping, ADFS, Salesforce Identity  
